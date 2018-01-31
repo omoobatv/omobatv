@@ -1,1 +1,76 @@
+<item>
+<title>Absolute Radio</title>
+<link>http://ais.absoluteradio.co.uk/absoluteradio.mp3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/100_288x162_2013-11-11-17-01-55-764.png</thumbnail>
+</item>
 
+<item>
+<title>Absolute Classic Rock</title>
+<link>http://ais.absoluteradio.co.uk/absoluteclassicrock.mp3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/104_288x162_2013-11-11-17-01-55-467.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>Classic FM</title>
+<link>http://media-sov.musicradio.com/ClassicFM</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/256_288x162_2013-01-25-09-30-56-12.png</thumbnail>
+</item>
+
+
+<item>
+<title>Capital London 95.8</title>
+<link>http://media-the.musicradio.com:80/CapitalMP3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/237_288x162_2016-05-17-09-45-18-987.png</thumbnail>
+</item>
+
+<item>
+<title>Capital XTRA</title>
+<link>http://media-the.musicradio.com/CapitalXTRALondon</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/1269_288x162_2013-10-03-12-31-34-488.png</thumbnail>
+</item>
+
+
+<item>
+<title>Chill Radio</title>
+<link>http://media-the.musicradio.com:80/ChillMP3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/1155_288x162_2013-01-25-09-30-55-595.png</thumbnail>
+</item>
+
+<item>http://streams.shoutcastsolutions.com:8161
+<title>Choice FM</title>
+<link>http://178.32.62.163:8161/stream</link>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s275103q.png</thumbnail>
+</item>
+
+<item>
+<title>Heart London 106.2</title>
+<link>http://media-the.musicradio.com:80/HeartLondonMP3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/232_288x162_2017-02-12-21-15-35-276.png</thumbnail>
+</item>
+    
+ <item>
+<title>kiss FM</title>
+<link>http://icy-e-ba-07-boh.sharp-stream.com:8000/kissnational.mp3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/550_288x162_2015-04-30-13-15-55-550.png</thumbnail>
+</item>  
+    
+<item>
+<title>LBC Radio</title>
+<link>http://media-the.musicradio.com/LBCLondon</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/258_288x162_2014-02-11-07-40-17-265.png</thumbnail>
+</item>
+
+<item>
+<title>Magic Radio</title>
+<link>http://icy-e-bz-05-cr.sharp-stream.com:8000/magicnational.mp3</link>
+<thumbnail>https://ukrpimagecache.s3.amazonaws.com/image/553_288x162_2017-08-29-10-15-46-712.png</thumbnail>
+</item>
+
+
+<item>
+<title>Smooth Radio</title>
+<link>http://media-the.musicradio.com/SmoothLondon</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/406_288x162_2014-03-19-15-30-45-953.png</thumbnail>
+</item>

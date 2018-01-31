@@ -69,7 +69,7 @@
 <item>
 <title>[COLOR white] Integrity Tv [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC-EB_cyWbGePOvlJmPD7DjA/?page=0</jsonrpc>
-<thumbnail>https://yt3.ggpht.com/-sk6qd-c3k6s/AAAAAAAAAAI/AAAAAAAAAAA/4qrUw41QAJ0/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/intergritytv.png</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

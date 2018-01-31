@@ -1,1 +1,27 @@
 
+<layouttype>thumbnail</layouttype>
+
+
+<channels>
+<channel>
+<name>Useful Duas Audio</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/quran/quran_audios</externallink>
+<fanart></fanart>
+<info>Useful Duas Audio</info>
+</channel>
+  
+<channel>
+<name>Useful Duas Videos</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/quran/quran_videos</externallink>
+<fanart>Useful Duas Video</fanart>
+<info></info>
+</channel>
+
+
+  
+  
+
+
+</channels>

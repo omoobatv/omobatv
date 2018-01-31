@@ -1,1 +1,140 @@
+<item>
+<title>Dua For Protection</title> 
+<utube>zN5G0v6bVck</utube> 
+<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+</item>
+ 
+ 
+<item>
+<title>Dua For Sucess</title> 
+<utube>zC-aHZINAlU</utube> 
+<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+</item>
+ 
+ 
+<item>
+<title>Surah Yasin</title> 
+<utube>z-W_NfyAP3Q</utube> 
+<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>Protection from Evil Eye</title> 
+<utube>SwK3KGrcD_g</utube> 
+<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>Dua For Victory</title> 
+<utube>Isv6D8_xGYw</utube> 
+<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>Dua For Mercy</title>
+<utube>ySSMPQCZSqc</utube>
+<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+</item>
+ 
+ 
+<item>
+<title>99 Names of Allah</title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/99-names-of-allah.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/ykxllsf6n/99_Names_of_Allah.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>40 Rabbanas</title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/40-rabbana-dua.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/zg2iqsgkf/rabanans.png</thumbnail>
+</item>
+ 
+<item>
+<title>SURAH AL-FALAQ</title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/surah-falaq.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>SURAH AN-NAS </title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/surah-nas.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
+ 
+ 
+<item>
+<title>AYATUL KURSI </title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/ayatul-kursi.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>SURAH AL-IKHLAS</title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/surah-ikhlas.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>SURAH AL-BAQARAH</title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/surah-baqarah.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
 
+
+<item>
+<title>SURAH AL-KAHF</title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/surah-kahf.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>SURAH AD-DUHA</title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/surah-duha.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>

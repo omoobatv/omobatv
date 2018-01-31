@@ -1,1 +1,26 @@
 
+<layouttype>thumbnail</layouttype>
+
+
+<channels>
+
+<channel>
+<name>Yoruba Movies</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/submenu/naija_movies_yoruba</externallink>
+<fanart></fanart>
+<info></info>
+</channel>
+
+<channel>
+<name>English Movies</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/submenu/naija_movies_english</externallink>
+<fanart></fanart>
+<info></info>
+</channel>
+
+
+
+
+</channels>

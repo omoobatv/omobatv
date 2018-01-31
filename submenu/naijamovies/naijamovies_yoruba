@@ -86,7 +86,7 @@
 <item>
 <title>[COLOR white] Yoruba Movies Channel [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCwRYXZ_hcjfzbXeRzA3A4SQ/?page=0</jsonrpc>
-<thumbnail>https://yt3.ggpht.com/-1tUuUBJ2ZGg/AAAAAAAAAAI/AAAAAAAAAAA/-Xr5qWZvsP0/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/ymc.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

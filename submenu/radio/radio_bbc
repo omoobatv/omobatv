@@ -1,1 +1,55 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/340_288x162_2013-01-25-09-30-45-300.png",BBC Radio 1
+
+https://as-dash-uk-live.akamaized.net/pool_7/live/bbc_radio_one/bbc_radio_one.isml/dash/bbc_radio_one-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/342_288x162_2013-01-25-09-30-45-547.png",BBC Radio 2
+
+http://as-dash-ww-live.bbcfmt.hs.llnwd.net/pool_7/live/bbc_radio_two/bbc_radio_two.isml/dash/bbc_radio_two-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/343_288x162_2013-01-25-09-30-45-738.png",BBC Radio 3
+
+https://as-dash-ww-live.akamaized.net/pool_7/live/bbc_radio_three/bbc_radio_three.isml/dash/bbc_radio_three-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/358_288x162_2013-01-25-09-30-46-130.png",BBC Radio 4 extra
+
+http://as-dash-ww-live.bbcfmt.hs.llnwd.net/pool_6/live/bbc_radio_four_extra/bbc_radio_four_extra.isml/dash/bbc_radio_four_extra-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/345_288x162_2013-01-25-09-30-46-245.png",BBC Radio 5 live
+
+http://as-dash-ww-live.akamaized.net/pool_6/live/bbc_radio_five_live/bbc_radio_five_live.isml/dash/bbc_radio_five_live-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/347_288x162_2013-01-25-09-30-43-598.png",BBC Radio 6 music
+
+http://as-dash-ww-live.bbcfmt.hs.llnwd.net/pool_6/live/bbc_6music/bbc_6music.isml/dash/bbc_6music-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/350_288x162_2013-01-25-09-30-49-877.png",BBC World Service
+
+https://as-dash-ww-live.bbcfmt.hs.llnwd.net/pool_27/live/bbc_world_service/bbc_world_service.isml/dash/bbc_world_service-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/300_288x162_2015-10-07-09-00-25-68.png",BBC Radio London
+
+https://as-dash-uk-live.bbcfmt.hs.llnwd.net/pool_7/live/bbc_london/bbc_london.isml/dash/bbc_london-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/351_288x162_2013-01-25-09-30-45-11.png",BBC Radio Scotland
+
+http://as-dash-uk-live.akamaized.net/pool_7/live/bbc_radio_scotland_fm/bbc_radio_scotland_fm.isml/dash/bbc_radio_scotland_fm-audio=320000.m3u8
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/351_288x162_2013-01-25-09-30-45-11.png",davido fall
+
+https://www.mp3naija.com.ng/x-content/02-06-2017/Davido-Fall.mp3
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/351_288x162_2013-01-25-09-30-45-11.png",davido fia
+
+https://www.mp3naija.com.ng/x-content/17-11-2017/Davido-Fia-MP3NAIJA_COM.mp3
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/351_288x162_2013-01-25-09-30-45-11.png",davido if
+
+https://www.naijavibes.com/wp-content/uploads/2017/02/Davido-if.mp3
+
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/351_288x162_2013-01-25-09-30-45-11.png", Olamide Wos
+
+https://www.naijavibes.com/wp-content/uploads/2017/08/Olamide-Wo-Prod.-Young-John.mp3
+
 

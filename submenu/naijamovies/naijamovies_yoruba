@@ -77,7 +77,7 @@
 <item>
 <title>[COLOR white] YorubaBest Tv [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCrfVFZ6JyBtwIc67ncVbwIg/?page=0</jsonrpc>
-<thumbnail>https://yt3.ggpht.com/-vY2R0PhiyXo/AAAAAAAAAAI/AAAAAAAAAAA/yWMB8lL1YSk/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/yorubabest.png</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

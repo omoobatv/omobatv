@@ -1,1 +1,47 @@
+<item>
+<title>Islam Channel</title>
+<link>http://wowza05.sharp-stream.com:1935/islamtv/mp4:islamtv.stream/playlist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/islam_channel.png</thumbnail>
+</item>
+ 
+<item>
+<title>Peace TV</title>
+<link>rtmp://peace.fms.visionip.tv/live/ playpath=b2b-peace_usa-live-25f-4x3-sdh_1 swfUrl=http://www.peacetv.tv/templates/swf/player.swf pageUrl=http://www.peacetv.in/live_peacetv.html live=1 timeout=15 </link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/peace_tv.png</thumbnail>
+</item>
+ 
+<item>
+<title>Muslim TV Ahmadiyya</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://ooyalahd2-f.akamaihd.net/z/mtaurdu_delivery@350117/manifest.f4m?g=YWDMKPHNRYHS&amp;hdcore=2.10.3')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mta_tv_uk_international.png</thumbnail>
+</item>
+ 
+<item>
+<title>Mecca Live</title>
+<link>plugin://plugin.video.youtube/play/?video_id=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>data-context-item-id="([^"]+)<expres>
+<page>https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ahl_alquran_tv.png</thumbnail>
+</item>
+ 
 
+ 
+<item>$doregex[get-url]
+<title>IQra Tv</title>
+<link>https://dcunilive16-lh.akamaihd.net/i/dclive_1@347128/master.m3u8</link>
+<regex>
+<name>get-url</name>
+<expres>file:  '(.*m3u8)'</expres>
+<page>http://iqra.tv/</page>
+<referer>http://iqra.tv</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/iqra_tv_uk.png</thumbnail>
+</item>

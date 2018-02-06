@@ -45,10 +45,24 @@
 
 
 <item>
-<title>facebook</title> 
-<urlresolve>https://www.facebook.com/video/embed?video_id=1234567890</urlresolve> 
-<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+<title>Facebook</title>
+<link>$doregex[clean-m3u8]|Referer=https://www.facebook.com</link>
+<regex>
+    <name>clean-m3u8</name>
+    <expres>$pyFunction:'$doregex[get-m3u8]'.replace('\/','/')</expres>
+    <page></page>
+</regex>
+ 
+<regex>
+<name>get-m3u8</name>
+<expres>".*d_src_no_ratelimit":"(.*?)"</expres>
+<page>https://www.facebook.com/video/embed?video_id=167079227253466</page>
+<referer>https://www.facebook.com</referer>
+</regex>
 </item>
+
+
+
 
 
 

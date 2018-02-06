@@ -42,3 +42,13 @@
 <utube>v-OZFRZPDv0</utube> 
 <thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
 </item>
+
+
+<item>
+<title>facebook</title> 
+<urlresolve>https://www.facebook.com/video/embed?video_id=1234567890</urlresolve> 
+<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+</item>
+
+
+

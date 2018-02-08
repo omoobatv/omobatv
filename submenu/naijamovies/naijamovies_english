@@ -63,11 +63,11 @@
 
 
 <item>
-<title>Omoba TV</title> 
+<title>Omoba TV0</title> 
 <link>$doregex[reg1]|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>
-<expres>x-mpegurl" src.*[",'](.*m3u8)[",']</expres>
+<expres>x-mpegurl" src.*[",'](.*?)[",']</expres>
 <page>http://naijal.com</page>
 <referer>http://naijal.com</referer>
 </regex>

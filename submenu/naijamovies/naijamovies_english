@@ -64,11 +64,11 @@
 </item>$doregex[reg1]|User-Agent=iphone
 
 <item>
-<title>Mu</title> 
+<title>M</title> 
 <link>http://cubenu.com:8080/[reg1]|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*m3u8)" type="application</expres>
+<expres>source src="(.*m3u8)"</expres>
 <page>http://cubenu.com:8080/adobe.html</page>
 <referer>http://naijal.com</referer>
 </regex>

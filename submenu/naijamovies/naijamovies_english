@@ -56,10 +56,11 @@
 <regex>
 <name>get-m3u8</name>
 <expres>".*d_src_no_ratelimit":"(.*?)"</expres>
-<page>https://www.facebook.com/video/embed?video_id=167079227253466</page>
+<page>https://www.facebook.com/video/embed?video_id=167597143868341</page>
 <referer>https://www.facebook.com</referer>
 </regex>
 </item>
+
 
 
 

@@ -68,7 +68,7 @@
 <link>http://cubenu.com:8080/[reg1]|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*?)" type="application</expres>
+<expres>source src="(.*m3u8)" type="application</expres>
 <page>view-source:cubenu.com:8080/adobe.html</page>
 <referer>http://naijal.com</referer>
 </regex>

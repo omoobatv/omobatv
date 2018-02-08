@@ -53,7 +53,7 @@
 
 <item>
 <title>Omoba TV0</title> 
-<link>$doregex[reg1]|User-Agent=iphone</link>
+<link>http://cubenu.com:8080/hls/adobe/master.m3u8|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>
 <expres>x-mpegurl" src.*[",'](.*?)[",']</expres>
@@ -61,7 +61,7 @@
 <referer>http://naijal.com</referer>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/naijaping/omobatv/master/images/bbnaija.jpg</thumbnail>
-</item>
+</item>$doregex[reg1]|User-Agent=iphone
 
 
 

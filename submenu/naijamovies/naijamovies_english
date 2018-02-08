@@ -67,15 +67,4 @@ http://cubenu.com:8080/adobe.html
 
 
 
-<item>
-<title>TV0</title> 
-<link>$doregex[reg1]|User-Agent=iphone</link>
-<regex>
-<name>reg1</name>
-<expres>source src.*[",'](.*?)[",']</expres>
-<page>http://cubenu.com:8080/adobe.html</page>
-<referer>http://naijal.com</referer>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/naijaping/omobatv/master/images/bbnaija.jpg</thumbnail>
-</item>$doregex[reg1]|User-Agent=iphone
-http://cubenu.com:8080/adobe.html
+

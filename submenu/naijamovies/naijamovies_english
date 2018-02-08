@@ -64,12 +64,12 @@
 </item>$doregex[reg1]|User-Agent=iphone
 
 <item>
-<title>Mum1</title> 
+<title>Mum</title> 
 <link>http://cubenu.com:8080[reg1]|User-Agent=iphone</link>
 <regex>
 <name>reg2</name>
 <expres>source src.*[",'](.*m3u8)[",']</expres>
-<page>view-source:cubenu.com:8080/adobe.htmll</page>
+<page>view-source:cubenu.com:8080/adobe.html</page>
 <referer>http://naijal.com</referer>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/naijaping/omobatv/master/images/bbnaija.jpg</thumbnail>

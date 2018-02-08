@@ -67,7 +67,7 @@
 <link>$doregex[reg1]|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>
-<expres> mpegurl.*[",'](.*?)[",']</expres>
+<expres> x-mpegurl" src.*[",'](.*?)[",']</expres>
 <page>http://naijal.com</page>
 <referer>http://naijal.com</referer>
 </regex>

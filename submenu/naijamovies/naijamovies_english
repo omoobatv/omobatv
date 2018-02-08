@@ -69,7 +69,7 @@
 <regex>
 <name>reg2</name>
 <expres>source src.*[",'](.*m3u8)[",']</expres>
-<page>http://cubenu.com:8080/adobe.html</page>
+<page>view-source:cubenu.com:8080/adobe.htmll</page>
 <referer>http://naijal.com</referer>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/naijaping/omobatv/master/images/bbnaija.jpg</thumbnail>

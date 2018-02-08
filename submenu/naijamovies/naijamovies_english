@@ -64,7 +64,7 @@
 </item>$doregex[reg1]|User-Agent=iphone
 
 <item>
-<title>Mumu</title> 
+<title>Mumu1</title> 
 <link>http://$doregex[reg1]/$doregex[reg2]|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>

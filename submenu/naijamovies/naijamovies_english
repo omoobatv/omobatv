@@ -65,7 +65,7 @@
 
 <item>
 <title>Mumu1</title> 
-<link>http://$doregex[reg1]/$doregex[reg2]|User-Agent=iphone</link>
+<link>http:$doregex[reg1]/$doregex[reg2]|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>
 <expres>host.*[',"](.*)[',"]</expres>

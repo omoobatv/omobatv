@@ -1,1 +1,13 @@
+<layouttype>thumbnail</layouttype>
 
+
+<channels>
+<channel>
+<name>All Workout</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/quran/quran_audios</externallink>
+<fanart></fanart>
+<info>Fitness Workout</info>
+</channel>
+  
+</channels>

@@ -42,9 +42,9 @@
 
 
 <item>
-<title>[COLOR white] GeledeTV+ [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UC6T14Ob0VgHFs10GTZl2g9w/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/img/geledetv.jpg</thumbnail>
+<title>[COLOR white]Pop sugartv fit [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/popsugartvfit/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-BsrLTcw7rsg/AAAAAAAAAAI/AAAAAAAAAAA/e7g-a22BudQ/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

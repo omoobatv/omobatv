@@ -33,9 +33,9 @@
 </item>
 
 <item>
-<title>[COLOR white] OlumoTV [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UCq_YeWiz_DBjBYshEpSHdkA/?page=0</jsonrpc>
-<thumbnail>https://s19.postimg.org/lnorijkv7/olumotv.jpg</thumbnail>
+<title>[COLOR white]Be Fit [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/BeFit/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-H6YodrSuTiQ/AAAAAAAAAAI/AAAAAAAAAAA/mcMy87MgLEI/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

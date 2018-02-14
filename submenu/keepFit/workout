@@ -17,8 +17,8 @@
 
 
 <item>
-<title>[COLOR white] Yoruba TV+ [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UCeAH89bVuCLxp7MPOBZFZNQ/?page=0</jsonrpc>
+<title>[COLOR white]Robin for life[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/robinforlife/?page=0</jsonrpc>
 <thumbnail>http://s19.postimg.org/c5ou2wcv7/yorubatvplus.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>

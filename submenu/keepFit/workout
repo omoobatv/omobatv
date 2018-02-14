@@ -17,9 +17,9 @@
 
 
 <item>
-<title>[COLOR white]Robin for life[/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/user/robinforlife/?page=0</jsonrpc>
-<thumbnail>http://s19.postimg.org/c5ou2wcv7/yorubatvplus.jpg</thumbnail>
+<title>[COLOR white]Runtastic Fitness[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/runtasticFitness/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-8HwQbazlHEE/AAAAAAAAAAI/AAAAAAAAAAA/xR6JpICwpuk/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

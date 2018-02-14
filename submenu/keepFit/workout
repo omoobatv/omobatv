@@ -84,9 +84,17 @@
 
 
 <item>
-<title>[COLOR white] Yoruba Movies Channel [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UCwRYXZ_hcjfzbXeRzA3A4SQ/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/ymc.jpg</thumbnail>
+<title>[COLOR white]Fit Global[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/fit/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-ScLdVt6iA7Q/AAAAAAAAAAI/AAAAAAAAAAA/LaaRVR015gk/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+<item>
+<title>[COLOR white][/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/fit/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-ScLdVt6iA7Q/AAAAAAAAAAI/AAAAAAAAAAA/LaaRVR015gk/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

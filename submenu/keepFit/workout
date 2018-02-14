@@ -25,8 +25,8 @@
 </item>
 
 <item>
-<title>[COLOR white] OlekuTV [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UCJGBTvec2wqrqi-W0OsX2Kw/?page=0</jsonrpc>
+<title>[COLOR white]Love zumba [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/lovezumba/?page=0</jsonrpc>
 <thumbnail>http://i63.tinypic.com/11t33mc.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>

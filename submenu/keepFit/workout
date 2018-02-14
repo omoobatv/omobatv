@@ -34,7 +34,7 @@
 
 <item>
 <title>[COLOR white]Be Fit [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/BeFit/?page=0</jsonrpc>
+<jsonrpc>Plugin://plugin.video.youtube/user/BeFit/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/-H6YodrSuTiQ/AAAAAAAAAAI/AAAAAAAAAAA/mcMy87MgLEI/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
@@ -51,9 +51,9 @@
 
 
 <item>
-<title>[COLOR white] LibraTv [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UCvpK1k1i23Xi5TM-ZDuSNDw/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/img/libratv.jpg</thumbnail>
+<title>[COLOR white]Super hero fitness tv[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/superherofitnesstv/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-s_xWWsIqWKo/AAAAAAAAAAI/AAAAAAAAAAA/btf7fYzKTYk/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

@@ -67,9 +67,9 @@
 </item>
 
 <item>
-<title>[COLOR white] Integrity Tv [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UC-EB_cyWbGePOvlJmPD7DjA/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/intergritytv.png</thumbnail>
+<title>[COLOR white]Story of Shirtless[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/STORYOFSHIRTLESS/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-03wsplj7Lys/AAAAAAAAAAI/AAAAAAAAAAA/gSOa141K-ZI/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

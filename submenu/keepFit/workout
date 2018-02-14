@@ -100,17 +100,11 @@
 </item>
 
 <item>
-<title>[COLOR white]Jordan Yeoh Fitness[/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/user/jordanyeohfitness/?page=0</jsonrpc>
-<thumbnail></thumbnail>
+<title>[COLOR white]Fitness Marshall[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/user/TheFitnessMarshall/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-MloR3K7KCSA/AAAAAAAAAAI/AAAAAAAAAAA/LFxE73ZB7fc/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
 
-<item>
-<title>[COLOR white]Jordan Yeoh Fitness[/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/user/jordanyeohfitness/?page=0</jsonrpc>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>ignoreme</link>
-</item>
+

@@ -75,6 +75,16 @@
 </item>
 
 
+
+<item>
+<title>[COLOR white]Kara Tv [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC43ofM-R0bJW5hsQSbEHVLg/?page=0</jsonrpc>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/karatv.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+
 <item>
 <title>[COLOR white] Integrity Tv [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC-EB_cyWbGePOvlJmPD7DjA/?page=0</jsonrpc>

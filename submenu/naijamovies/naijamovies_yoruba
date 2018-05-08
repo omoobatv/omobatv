@@ -1,7 +1,7 @@
 <item>
 <title>[COLOR white]APATATV+[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC83tx3zGcvQ_rXzsZigTnEA/?page=0</jsonrpc>
-<thumbnail>http://i65.tinypic.com/24b58ns.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/apatatv.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -10,7 +10,7 @@
 <item>
 <title>[COLOR white]Yorubahood[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC3BYT_REpOi_DNhluVO2ndw/?page=0</jsonrpc>
-<thumbnail>https://s19.postimg.org/v89wq5qhv/YORUBAHOOD.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubahood.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -19,7 +19,7 @@
 <item>
 <title>[COLOR white] Yoruba TV+ [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCeAH89bVuCLxp7MPOBZFZNQ/?page=0</jsonrpc>
-<thumbnail>http://s19.postimg.org/c5ou2wcv7/yorubatvplus.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubatvplus.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -27,7 +27,7 @@
 <item>
 <title>[COLOR white] OlekuTV [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCJGBTvec2wqrqi-W0OsX2Kw/?page=0</jsonrpc>
-<thumbnail>http://i63.tinypic.com/11t33mc.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/olekutv.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -35,7 +35,7 @@
 <item>
 <title>[COLOR white] OlumoTV [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCq_YeWiz_DBjBYshEpSHdkA/?page=0</jsonrpc>
-<thumbnail>https://s19.postimg.org/lnorijkv7/olumotv.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/olumotv.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -44,7 +44,7 @@
 <item>
 <title>[COLOR white] GeledeTV+ [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC6T14Ob0VgHFs10GTZl2g9w/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/img/geledetv.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/geledetv.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -53,7 +53,7 @@
 <item>
 <title>[COLOR white] LibraTv [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCvpK1k1i23Xi5TM-ZDuSNDw/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/img/libratv.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/libratv.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -61,15 +61,24 @@
 <item>
 <title>[COLOR white] MovieBox [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCH7TThgOlxDh9Pbbc2QqMjQ/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/img/moviebook.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/moviebook.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
 
 <item>
+<title>[COLOR white] Okiki Tv [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCPehKg9VtoeOjfw2iaBsGNg/?page=0</jsonrpc>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/okikitv.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+
+<item>
 <title>[COLOR white] Integrity Tv [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC-EB_cyWbGePOvlJmPD7DjA/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/intergritytv.png</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/intergritytv.png</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -77,7 +86,15 @@
 <item>
 <title>[COLOR white] YorubaBest Tv [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCrfVFZ6JyBtwIc67ncVbwIg/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/yorubabest.png</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubabest.png</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+<item>
+<title>[COLOR white] Yoruba Play [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCK2-495cMvdhaMqXcLlgmcg/?page=0</jsonrpc>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubaplay.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -86,7 +103,7 @@
 <item>
 <title>[COLOR white] Yoruba Movies Channel [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCwRYXZ_hcjfzbXeRzA3A4SQ/?page=0</jsonrpc>
-<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/ymc.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/ymc.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>

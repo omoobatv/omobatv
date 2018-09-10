@@ -6,16 +6,16 @@
 
 <channel>
 <name>Yoruba Movies</name>
-<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/yoru-movies_icon.png</thumbnail>
-<externallink>special://home/addons/plugin.video.naijaMovies/img/yorumovies.png</externallink>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorumovies.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>
 <fanart></fanart>
 <info></info>
 </channel>
 
 <channel>
 <name>English Movies</name>
-<thumbnail>https://raw.githubusercontent.com/omoobatv/omobatv/master/images/eng-movies_icon.png</thumbnail>
-<externallink>special://home/addons/plugin.video.naijaMovies/img/englishmovies.png</externallink>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/englishmovies.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_english</externallink>
 <fanart></fanart>
 <info></info>
 </channel>

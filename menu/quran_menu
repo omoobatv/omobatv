@@ -5,7 +5,7 @@
 <channels>
 <channel>
 <name>Useful Duas Audio</name>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/duas-audio.png</thumbnail>
+<thumbnail>special://home/addons/plugin.video.Alquran/img/duas-audio.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/quran/quran_audios</externallink>
 <fanart></fanart>
 <info>Useful Duas Audio</info>
@@ -13,7 +13,7 @@
   
 <channel>
 <name>Useful Duas Videos</name>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/duas-videos.png</thumbnail>
+<thumbnail>special://home/addons/plugin.video.Alquran/img/duas-videos.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/quran/quran_videos</externallink>
 <fanart>Useful Duas Video</fanart>
 <info></info>

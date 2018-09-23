@@ -25,6 +25,13 @@
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>Agidigbo FM</title>
+<link>http://s1.voscast.com:9350/;stream1478167270558.mp3</link>
+<thumbnail>https://www.mymusic.com.ng/images/album-hover.png</thumbnail>
+</item>
+
 <item>
 <title>EgbaAlake Radio</title>
 <link>http://50.7.76.251:9601</link>
@@ -187,6 +194,12 @@
 </item>
 
 <item>
+<title>Pidgin Radio</title>
+<link>http://s2.voscast.com:10228/;stream</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>Jokceebee  FM</title>
 <link>http://198.178.123.11:8612</link>
 <thumbnail></thumbnail>
@@ -198,6 +211,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Golden FM</title>
+<link>https://s2.radio.co/se100828ec/listen</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Naija Hits Fm</title>
+<link>http://naijamusic.out.airtime.pro:8000/naijamusic_a</link>
+<thumbnail></thumbnail>
+</item>
 
 <tem>
 <title>Sky00</title> 

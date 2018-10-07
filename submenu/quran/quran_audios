@@ -145,4 +145,15 @@
 <thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
 </item>
 
+<item>
+<title>SURAH AD-YASEEN</title> 
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(h.*?.mp3)"</expres>
+<page>http://suratmp3.com/modules/mp3Quran/en/listen/25/36/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 http://www.islamfactory.com/quran/mp3/mishary-bin-rashid-al-afasy/036-Mishary-QF

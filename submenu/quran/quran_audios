@@ -128,11 +128,11 @@
 </item>
 
 <item>
-<title>SURAH AL-KAHF</title> 
+<title>SURAH AL-KAHF2</title> 
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>href="(h.*?.mp3)"</expres>
+<expres>href="(h.*mp3)"</expres>
 <page>http://www.islamfactory.com/quran/mp3/mishary-bin-rashid-al-afasy/018-Mishary-QF</page>
 </regex>
 <thumbnail></thumbnail>

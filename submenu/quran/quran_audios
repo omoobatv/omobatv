@@ -116,7 +116,7 @@
 </item>
 
 
-<item>
+<tem>
 <title>SURAH AL-KAHF</title> 
 <link>http://www.quran411.com/$doregex[reg1]</link>
 <regex>
@@ -125,6 +125,17 @@
 <page>http://www.quran411.com/surah-kahf.asp</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
+
+<item>
+<title>SURAH AL-KAHF</title> 
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>href="(h.*?.mp3)"</expres>
+<page>http://suratmp3.com/modules/mp3Quran/en/listen/25/36/</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 

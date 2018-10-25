@@ -133,7 +133,7 @@
 <regex>
 <name>reg1</name>
 <expres>href="(h.*?.mp3)"</expres>
-<page>http://suratmp3.com/modules/mp3Quran/en/listen/25/36/</page>
+<page>http://www.islamfactory.com/quran/mp3/mishary-bin-rashid-al-afasy/018-Mishary-QF</page>
 </regex>
 <thumbnail></thumbnail>
 </item>

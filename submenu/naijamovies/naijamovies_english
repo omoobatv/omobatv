@@ -9,7 +9,7 @@
 
 <item>
 <title>[COLOR white]Skinny girl in transit[/COLOR]</title>
-<jsonrpc>plugin://plugin.video.youtube/play/?playlist_id=PL6WdrbJFouUsvrKynwzut1UOWrVWHGO08&order=default&play=1</jsonrpc>
+<jsonrpc>plugin://plugin.video.youtube/play/?playlist_id=PL6WdrbJFouUsvrKynwzut1UOWrVWHGO08&amp;order=default&amp;play=1</jsonrpc>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>

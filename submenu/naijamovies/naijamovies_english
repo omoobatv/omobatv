@@ -8,8 +8,8 @@
 
 
 <item>
-<title>[COLOR white]Skinny girll in transit[/COLOR]</title>
-<utube>plugin://plugin.video.youtube/play/?playlist_id=PL6WdrbJFouUsvrKynwzut1UOWrVWHGO08</utube>
+<title>[COLOR white]Skinny girl in transit[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCaqszK4_9KyMwBR3ymiu2RA/?page=0</jsonrpc>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>

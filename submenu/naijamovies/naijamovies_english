@@ -13,9 +13,9 @@
 </item>
 
 <item>
-<title>Random PL00</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.youtube/channel/UCaqszK4_9KyMwBR3ymiu2RA/playlists/PL6WdrbJFouUsvrKynwzut1UOWrVWHGO08</jsonrpc>
+<title>BBC Two 4K</title>
+<inputstream>PL6WdrbJFouUsvrKynwzut1UOWrVWHGO08</inputstream>
+<thumbnail>http://s19.postimg.org/ykxllsf6n/99_Names_of_Allah.jpg</thumbnail>
 </item>
 
 

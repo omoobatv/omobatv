@@ -1,3 +1,50 @@
+<item>
+<title>E4</title>
+<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=13&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>src.*?"(h.*m3u8.*?)"</expres>
+<page>https://tvpc.us/player/?cid=13</page>
+<referer>https://tvpc.us/player/?cid=13</referer>
+</regex>
+</item>
+
+
+<item>
+<title>More4</title>
+<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=14&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>src.*?"(h.*m3u8.*?)"</expres>
+<page>https://tvpc.us/player/?cid=14</page>
+<referer>https://tvpc.us/player/?cid=14</referer>
+</regex>
+</item>
+
+
+<item>
+<title>Channel 4</title>
+<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=3&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>src.*?"(h.*m3u8.*?)"</expres>
+<page>https://tvpc.us/player/?cid=3</page>
+<referer>https://tvpc.us/player/?cid=3</referer>
+</regex>
+</item>
+
+<item>
+<title>Channel 5</title>
+<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=11&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>src.*?"(h.*m3u8.*?)"</expres>
+<page>https://tvpc.us/player/?cid=11</page>
+<referer>https://tvpc.us/player/?cid=11</referer>
+</regex>
+</item>
+
+
 
 <title>[COLOR white]Arami[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UChl5Se6TXmyfGBg0tw9OSJA/?page=0</jsonrpc>
@@ -13,7 +60,7 @@
 </item>
 
 
-<item>
+<tem>
 <title>Big Brother</title>
 <link>$doregex[getM3U8]</link>
 <regex>
@@ -27,7 +74,7 @@
 </item>
 
 
-<item>
+<tem>
 <title>Kardashian</title>
 <link>$doregex[getM3U8]</link>
 <regex>
@@ -48,7 +95,7 @@
 </item>
 
 
-<item>
+<tem>
 <title>Facebook</title>
 <link>$doregex[clean-m3u8]|Referer=https://www.facebook.com</link>
 <regex>
@@ -66,7 +113,7 @@
 </item>
 
 
-<item>
+<tem>
 <title>Dorcas</title>
 <link>$doregex[clean-m3u8]|Referer=https://www.facebook.com</link>
 <regex>

@@ -241,12 +241,24 @@
 <regex>
 <name>reg1</name>
 <expres>href.*[",'](.*key.*?)[",']</expres>
-<page>http://www.
-pals.com/music/FIA__Fuji_Version__Destiny_Boy_X_Davido-69493</page>
+<page>http://www.naijapals.com/music/FIA__Fuji_Version__Destiny_Boy_X_Davido-69493</page>
 <referer>http://m.naijapals.com/song.php?id=69493</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>Asa</title> 
+<link>https://m.naijapals.com/$doregex[reg1]|User-Agent=iphone</link>
+<regex>
+<name>reg1</name>
+<expres>href.*[",'](.*key.*?)[",']</expres>
+<page>https://m.naijapals.com/music.php?id=95988</page>
+<referer>https://m.naijapals.com/music.php?id=95988</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 <title>[COLOR white]Sourced From You Tube So May Contain Clips[/COLOR]</title>

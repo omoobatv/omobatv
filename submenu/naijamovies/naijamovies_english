@@ -149,21 +149,6 @@
 http://cubenu.com:8080/adobe.html
 
 
-<item>
-<title>[B][COLOR springgreen]•PRUEBA2[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-]]></listrepeat>
-<expres><![CDATA[<h3 class="yt-lockup-title.*?dir="ltr" title="(.*?)".*?href=".*?\=(.*?)"]]></expres>
-<page>https://www.youtube.com/channel/UCr6TeVofbyCvtCdxV_niQKQ/videos</page>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
 
 
 

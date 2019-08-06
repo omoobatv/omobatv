@@ -149,13 +149,11 @@
 http://cubenu.com:8080/adobe.html
 
 
+
 <item>
 <title>Naija Mix</title>
-<jsonrpc>Plugin://plugin.video.youtube/playlist/PL6WdrbJFouUsjz4rXCuMr-QZ7fcuxDjhY/?page=0</jsonrpc>
-<thumbnail>ignoreme</thumbnail>
-<fanart>ignoreme</fanart>
-<link>ignorme</link>
+<utube>playlist/PL6WdrbJFouUsjz4rXCuMr-QZ7fcuxDjhY&amp;order=default&amp;play=1</utube>
+<thumbnail></thumbnail>
 </item>
-
 
 

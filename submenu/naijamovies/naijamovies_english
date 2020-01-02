@@ -1,7 +1,7 @@
 
 <item>
  <title>BBC One HD</title>
- <link>$doregex[reg1]|Referer=https://tvpc.us/player/?cid=13&amp;User-Agent=Mozilla/5.0</link>
+ <link>$doregex[reg1]</link>
  <regex>
  <name>reg1</name>
  <expres>src: "([^"]+)</expres>

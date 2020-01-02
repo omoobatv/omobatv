@@ -4,7 +4,7 @@
  <link>$doregex[reg1]|Referer=https://tvpc.us/player/?cid=13&amp;User-Agent=Mozilla/5.0</link>
  <regex>
  <name>reg1</name>
- <expres>src="([^"]+)</expres>
+ <expres>src: "([^"]+)</expres>
  <page>https://tvpc.us/player/?cid=13</page>
  <referer></referer>
  </regex>

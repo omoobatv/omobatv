@@ -1,3 +1,20 @@
+
+<item>
+ <title>BBC One HD</title>
+ <link>$doregex[reg1]|Referer=https://tvpc.us/player/?cid=13&amp;User-Agent=Mozilla/5.0</link>
+ <regex>
+ <name>reg1</name>
+ <expres>src="([^"]+)</expres>
+ <page>https://tvpc.us/player/?cid=13</page>
+ <referer></referer>
+ </regex>
+ <thumbnail>http://i63.tinypic.com/jg5ehg.jpg</thumbnail>
+ <summary>I DO NOT OWN OR HOST THESE STREAMING LINKS.THEY ARE FREELY AVAILABLE ON THE INTERNET.Credits to the owners</summary>
+ </item>
+
+
+
+
 <item>
 <title>E4</title>
 <link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=13&amp;User-Agent=Mozilla/5.0</link>

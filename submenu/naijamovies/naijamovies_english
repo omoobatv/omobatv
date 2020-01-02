@@ -1,6 +1,6 @@
 
 <item>
- <title>BBC One HD</title>
+ <title>BBC OneHD</title>
  <link>$doregex[reg1]</link>
  <regex>
  <name>reg1</name>

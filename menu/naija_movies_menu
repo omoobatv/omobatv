@@ -22,8 +22,8 @@
 
 <channel>
 <name>Latest Events</name>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/englishmovies.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_english</externallink>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/latest_events</externallink>
 <fanart></fanart>
 <info></info>
 </channel>

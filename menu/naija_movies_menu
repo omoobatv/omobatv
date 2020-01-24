@@ -6,7 +6,7 @@
 
 <channel>
 <name>Yoruba Movies</name>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorumovies.png</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/Yorumovies.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>
 <fanart></fanart>
 <info></info>

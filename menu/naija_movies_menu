@@ -22,11 +22,12 @@
 
 <channel>
 <name>Latest Events</name>
-<thumbnail>https://i1.sndcdn.com/avatars-000088146664-goqiqw-t500x500.jpg</thumbnail>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/goldmynetv.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/latest_events</externallink>
 <fanart></fanart>
 <info></info>
 </channel>
+
 
 
 </channels>

@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="BBCOne HD" tvg-name="BBCOne HD" tvg-logo="" group-title="BBC",BBC One HD
-http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_hd.m3u8
+pipe:///usr/bin/ffmpeg -i http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_hd.m3u8 -c copy -f mpegts pipe:1
 #EXTINF:-1 tvg-id="BBCOne London" tvg-name="BBCOne London" tvg-logo="" group-title="BBC",BBCOne London
 http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_london.m3u8
 #EXTINF:-1 tvg-id="BBCTwo HD" tvg-name="BBCTwo HD" tvg-logo="" group-title="BBC",BBCTwo HD

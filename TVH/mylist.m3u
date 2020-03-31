@@ -17,5 +17,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bb
 #EXTINF:-1 tvg-id="BBC World News"tvg-name="BBC World News"tvg-logo=""group-title="BBC",BBC World News
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://bozztv.com/36bay2/gin/giniko_bbcworldnews_900kb_36bay2/playlist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="ITV HD"tvg-name="ITV HD"tvg-logo=""group-title="ITV",ITV HD
+#EXTINF:-1 tvg-id="ITV"tvg-name="ITV HD"tvg-logo=""group-title="ITV",ITV HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://fr01.spr24.net/16626/video.m3u8?token=BQF9PmuRpcxUqR" -f mpegts -vcodec copy -acodec copy pipe:1

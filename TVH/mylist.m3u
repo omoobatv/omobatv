@@ -1,8 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="BBCOne HD" tvg-name="BBC One HD" tvg-logo="" group-title="BBC",BBCOne HD
+#EXTINF:-1 tvg-id="BBC One HD" tvg-name="BBC One HD" tvg-logo="" group-title="BBC",BBCOne HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_hd.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1,BBC One London
+#EXTINF:-1 tvg-id="BBC One Lon" tvg-name="BBC One Lon" tvg-logo="" group-title="BBC",BBC One London
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_london.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="BBCTwo HD" tvg-name="BBCTwo HD" tvg-logo="" group-title="BBC",BBCTwo HD
@@ -11,7 +11,8 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bb
 #EXTINF:-1 tvg-id="BBCFour HD" tvg-name="BBCFour HD" tvg-logo="" group-title="BBC",BBCFour HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_four.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1,BBC Parliament
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://vs-dash-uk-live.akamaized.net/pool_902/live/uk/bbc_parliament/bbc_parliament.isml/pc_hd_abr_v2_dash.mpd" -f mpegts -vcodec copy -acodec copy pipe:1
+#EXTINF:-1, BBC News HD
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_news24.m3u8" -map 0 -copy_unknown -c copy -metadata -f mpegts pipe:1
+
 
 

@@ -14,3 +14,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bb
 #EXTINF:-1 tvg-id="BBC News HD"tvg-name="BBC News HD"tvg-logo=""group-title="BBC",BBC News HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_news24.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
+#EXTINF:-1,BBC World News
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i https://bozztv.com/36bay2/gin/giniko_bbcworldnews_900kb_36bay2/playlist.m3u8 -c copy -flags +global_headers -f mpegts pipe:1

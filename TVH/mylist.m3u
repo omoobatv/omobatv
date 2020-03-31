@@ -5,7 +5,7 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bb
 #EXTINF:-1 tvg-id="BBC One Lon" tvg-name="BBC One Lon" tvg-logo="" group-title="BBC",BBC One London
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_london.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="BBCTwo HD" tvg-name="BBCTwo HD" tvg-logo="" group-title="BBC",BBCTwo HD
+#EXTINF:-1 tvg-id="BBC Two HD" tvg-name="BBCTwo HD" tvg-logo="" group-title="BBC",BBCTwo HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_two_england.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="BBC Four HD" tvg-name="BBC Four HD" tvg-logo="" group-title="BBC",BBCFour HD

@@ -11,7 +11,4 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bb
 #EXTINF:-1 tvg-id="BBCFour HD" tvg-name="BBCFour HD" tvg-logo="" group-title="BBC",BBCFour HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_four.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1,BBC Parliament
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://vs-dash-uk-live.akamaized.net/pool_902/live/uk/bbc_parliament/bbc_parliament.isml/pc_hd_abr_v2_dash.mpd" -f mpegts -vcodec copy -acodec copy pipe:1
-
 

@@ -63,7 +63,7 @@
 
 <item>
  <title>Channel 5</title>
- <link>https://uk.easyview.eu/hls/channel5.m3u8|Referer=https://easyview.eu/&amp;User-Agent=iphone</link>
+ <link>https://uk.easyview.eu/hls/channel5.m3u8|Referer=https://easyview.eu/watch.php?stream=channel5&amp;User-Agent=iphone</link>
  <thumbnail>http://i63.tinypic.com/jg5ehg.jpg</thumbnail>
  <summary>I DO NOT OWN OR HOST THESE STREAMING LINKS.THEY ARE FREELY AVAILABLE ON THE INTERNET.Credits to the owners</summary>
  </item>

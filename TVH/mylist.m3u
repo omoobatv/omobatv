@@ -1,23 +1,23 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="BBC One HD" tvg-name="BBC One HD" tvg-logo="" group-title="BBC",BBCOne HD
+#EXTINF:-1 tvg-id="BBCOneHD.uk" tvg-name="BBC One HD" tvg-logo="" group-title="BBC",BBCOne HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_hd.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="BBC One Lon" tvg-name="BBC One Lon" tvg-logo="" group-title="BBC",BBC One London
+#EXTINF:-1 tvg-id="BBC1London.uk" tvg-name="BBC One Lon" tvg-logo="" group-title="BBC",BBC One London
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_london.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="BBC Two HD" tvg-name="BBCTwo HD" tvg-logo="" group-title="BBC",BBCTwo HD
+#EXTINF:-1 tvg-id="BBC2.uk" tvg-name="BBC Two HD" tvg-logo="" group-title="BBC",BBCTwo HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_two_england.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="BBC Four" tvg-name="BBC Four HD" tvg-logo="" group-title="BBC",BBC Four HD
+#EXTINF:-1 tvg-id="BBC4.uk" tvg-name="BBC Four HD" tvg-logo="" group-title="BBC",BBC Four HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_four.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="BBC NEWS"tvg-name="BBC News HD"tvg-logo=""group-title="BBC",BBC News HD
+#EXTINF:-1 tvg-id="BBCNews.uk"tvg-name="BBC News HD"tvg-logo=""group-title="BBC",BBC News HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_news24.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="BBC World News"tvg-name="BBC World News"tvg-logo=""group-title="BBC",BBC World News
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://bozztv.com/36bay2/gin/giniko_bbcworldnews_900kb_36bay2/playlist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="ITV"tvg-name="ITV HD"tvg-logo=""group-title="ITV",ITV HD
+#EXTINF:-1 tvg-id="ITV1London.uk"tvg-name="ITV HD"tvg-logo=""group-title="ITV",ITV HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://fr01.spr24.net/16626/video.m3u8?token=BQF9PmuRpcxUqR" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="Nta"tvg-name="NTA"tvg-logo="",NTA

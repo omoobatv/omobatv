@@ -25,7 +25,7 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertain
 
 
 #EXTINF:-1 tvg-id="bbc_parliament"tvg-name="bbc_parliament"tvg-logo="",BBC Parliament
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://vs-dash-uk-live.akamaized.net/pool_902/live/uk/bbc_parliament/bbc_parliament.isml/pc_hd_abr_v2_dash.mpd" -f mpegts -vcodec copy -acodec copy pipe:1
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://vs-dash-uk-live.akamaized.net/pool_902/live/uk/bbc_parliament/bbc_parliament.isml/pc_hd_abr_v2_dash.mpd" -f mp4 -vcodec copy -acodec copy pipe:1
 
 
 

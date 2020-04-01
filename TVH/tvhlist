@@ -23,5 +23,9 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://fr01.spr24
 #EXTINF:-1 tvg-id="Nta"tvg-name="NTA"tvg-logo="",NTA
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-ntai-hsslive-25f-4x3-SD/chunklist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="SkyNews.uk"tvg-name="SkyNews"tvg-logo="",Sky News Live
-/storage/.kodi/addons/script.module.youtube.dl -f best "https://www.youtube.com/watch?v=9Auq9mYxFEE" -g
+
+#EXTINF:-1 tvg-id="bbc_parliament"tvg-name="bbc_parliament"tvg-logo="",BBC Parliament
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://vs-dash-uk-live.akamaized.net/pool_902/live/uk/bbc_parliament/bbc_parliament.isml/pc_hd_abr_v2_dash.mpd" -f mpegts -vcodec copy -acodec copy pipe:1
+
+
+

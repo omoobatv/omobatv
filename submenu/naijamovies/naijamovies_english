@@ -1,5 +1,15 @@
 
 <item>
+<title>[COLOR white]NelNaijaTV[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC1incd-mtWZclX_hvz5ihDw/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/a/AATXAJy_4aFqqWTjI6Rg_eYSjhAMZQbVdXN-w94PIw=s288-c-k-c0xffffffff-no-rj-mo</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+
+
+<item>
  <title>BBC OneHD</title>
  <link>$doregex[reg1]|Referer=https://tvpc.us/player/?cid=13&amp;User-Agent=Mozilla/5.0</link>
  <regex>

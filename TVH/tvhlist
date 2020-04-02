@@ -36,5 +36,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertain
 pipe:///storage/.kodi/addons/script.module.youtube.dl -f best "https://www.youtube.com/watch?v=9Auq9mYxFEE" -g
 
 #EXTINF:-1,ITV 8
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://51.52.156.22:8888/http/008" -f mpegts -vf scale=1920x1080:flags=lanczos -c:v libx264 -preset slow -crf 21 -vcodec copy -acodec copy pipe:1
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://51.52.156.22:8888/http/008" -f mpegts -vf scale=1920x1080:flags=lanczos -c:v libx264 -preset slow -crf 21 -acodec copy pipe:1
 

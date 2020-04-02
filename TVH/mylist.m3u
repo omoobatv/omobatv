@@ -26,8 +26,8 @@ http://51.52.156.22:8888/http/005
 #EXTINF:-1,ITV 3
 http://51.52.156.22:8888/http/006
 
-#EXTINF:-1,ITV 3
-http://51.52.156.22:8888/http/006
+#EXTINF:-1,ITV 4
+http://51.52.156.22:8888/http/007
 
 #EXTINF:-1 tvg-id="Nta"tvg-name="NTA"tvg-logo="",NTA
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-ntai-hsslive-25f-4x3-SD/chunklist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1

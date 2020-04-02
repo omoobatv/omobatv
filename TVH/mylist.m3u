@@ -34,3 +34,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertain
 
 #EXTINF:-1 tvg-id="SkyNews.uk"tvg-name="SkyNews"tvg-logo="",Sky News Live
 /storage/.kodi/addons/script.module.youtube.dl -f best "https://www.youtube.com/watch?v=9Auq9mYxFEE" -g
+
+#EXTINF:-1 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i http://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master_Main1800.m3u8 -vcodec copy -acodec copy -metadata service_name=ITV8\ UK \ HD -metadata service_provider=ITV -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1

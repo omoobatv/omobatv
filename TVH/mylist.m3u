@@ -24,4 +24,4 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://fr01.spr24
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-ntai-hsslive-25f-4x3-SD/chunklist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="SkyNews.uk"tvg-name="SkyNews"tvg-logo="",Sky News Live
-/storage/.kodi/addons/script.module.youtube.dl -f best "https://www.youtube.com/watch?v=9Auq9mYxFEE" -g
+/storage/.kodi/addons/youtube.dl -f best "https://www.youtube.com/watch?v=9Auq9mYxFEE" -g

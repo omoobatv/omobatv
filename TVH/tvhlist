@@ -18,14 +18,23 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bb
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://bozztv.com/36bay2/gin/giniko_bbcworldnews_900kb_36bay2/playlist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="ITV1London.uk"tvg-name="ITV HD"tvg-logo=""group-title="ITV",ITV HD
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://fr01.spr24.net/16626/video.m3u8?token=BQF9PmuRpcxUqR" -f mpegts -vcodec copy -acodec copy pipe:1
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master_Main1800.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
+
+#EXTINF:-1,ITV 2
+http://51.52.156.22:8888/http/005
+
+#EXTINF:-1,ITV 3
+http://51.52.156.22:8888/http/006
+
+#EXTINF:-1,ITV 4
+http://51.52.156.22:8888/http/007
 
 #EXTINF:-1 tvg-id="Nta"tvg-name="NTA"tvg-logo="",NTA
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-ntai-hsslive-25f-4x3-SD/chunklist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
+#EXTINF:-1 tvg-id="SkyNews.uk"tvg-name="SkyNews"tvg-logo="",Sky News Live
+pipe:///storage/.kodi/addons/script.module.youtube.dl -f best "https://www.youtube.com/watch?v=9Auq9mYxFEE" -g
 
-#EXTINF:-1 tvg-id="bbc_parliament"tvg-name="bbc_parliament"tvg-logo="",BBC Parliament
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://vs-dash-uk-live.akamaized.net/pool_902/live/uk/bbc_parliament/bbc_parliament.isml/pc_hd_abr_v2_dash.mpd" -f mp4 -vcodec copy -acodec copy pipe:1
-
-
+#EXTINF:-1 ,ITV 8
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i http://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master_Main1800.m3u8 -vcodec copy -acodec copy -metadata -f mpegts pipe:1
 

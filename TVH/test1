@@ -6,5 +6,4 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -i ht
 
 
 #EXTINF:-1 tvg-name="005" tvg-id="E!" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.51.png",The Edge TV
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -headers Referer:\ easyview.eu\r\n -i https://waw.easyview.eu/hls/e.m3u8 -vcodec copy -acodec copy -metadata service_name=E! -f mpegts pipe:1
-
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -headers "referer:easyview.eu" -i "https://waw.easyview.eu/hls/e.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1

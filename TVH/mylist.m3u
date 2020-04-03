@@ -35,5 +35,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertain
 #EXTINF:-1 tvg-name="Sky News" tvg-id="SkyNews.uk" group-title="IPTV-UK" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/skynews.png",Sky News HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -i http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/05.m3u8 -vcodec copy -acodec copy -metadata service_name=Sky\ News -metadata service_provider=IPTV-UK -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 
-#EXTINF:-1 tvg-name="005" tvg-id="E!" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.51.png",E! UK
+#EXTINF:-1 tvg-name="123" tvg-id="E!" tvg-logo="https://raw.githubusercontent.com/Jasmeet181/mediaportal-uk-logos/master/TV/Source/E.svg",E! UK
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "referer:easyview.eu" -i "https://waw.easyview.eu/hls/e.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1

@@ -33,5 +33,5 @@ http://51.52.156.22:8888/http/007
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-ntai-hsslive-25f-4x3-SD/chunklist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-name="Sky News" tvg-id="SkyNews.uk" group-title="IPTV-UK" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/skynews.png",Sky News HD
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -i http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/05.m3u8 -vcodec copy -acodec copy -metadata service_name=Sky\ News -metadata service_provider=IPTV-UK -mpegts_service_type advanced_codec_digital_hdtv -vf scale=1920x1080:flags=lanczos mpegts pipe:1
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -i http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/05.m3u8 -vcodec copy -acodec copy -metadata service_name=Sky\ News -metadata service_provider=IPTV-UK -mpegts_service_type advanced_codec_digital_hdtv -vf scale=1920x1080:flags=lanczos output_1080p.mpegts pipe:1
 

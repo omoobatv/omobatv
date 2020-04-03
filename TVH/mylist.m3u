@@ -37,3 +37,6 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -i ht
 
 #EXTINF:-1 tvg-name="123" tvg-id="E!" tvg-logo="https://raw.githubusercontent.com/Jasmeet181/mediaportal-uk-logos/master/TV/Source/E.svg",E! UK
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "referer:easyview.eu" -i "https://waw.easyview.eu/hls/e.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
+
+#EXTINF:-1 tvg-name="104" tvg-id="Channel 4" tvg-logo="http://gg.gg/new4HD",Channel 4HD
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "referer:easyview.eu" -i "https://uk.easyview.eu/hls/channel4.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1

@@ -1,7 +1,6 @@
 #EXTINF:-1 tvg-name="005" tvg-id="E!" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.51.png",The Edge TV
 pipe://ffmpeg -loglevel fatal -headers Referer:\ https://easyview.eu\r\n -i https://waw.easyview.eu/hls/e.m3u8 -vcodec copy -acodec copy -metadata service_name=E! -f mpegts pipe:1
 
-
 #EXTINF:-1 tvg-name="004" tvg-id="tv.12" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.12.png",Bravo
 pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i http://iptv.matthuisman.nz/nz/tv.12.m3u8 -vcodec copy -acodec copy -metadata service_name=tv.12 -f mpegts pipe:1
 

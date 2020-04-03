@@ -45,3 +45,22 @@ pipe://ffmpeg -i http://tx.sharp-stream.com/icecast.php?i=radioshow2.mp3 -vn -ac
 
 #EXTINF:-1 tvg-name="903" tvg-id="RadioShoeLtd.3" tvg-logo="http://radiolemans.0157.org/audios/rs3logo.png" radio="true",RS3
 pipe://ffmpeg -i http://tx.sharp-stream.com/icecast.php?i=radioshow3.mp3 -vn -acodec copy -metadata service_provider=Radio -metadata service_name=radioshowltd.3 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-name="001" tvg-id="tv.9" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.9.png",TVNZ 1
+pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i http://iptv.matthuisman.nz/nz/tv.9.m3u8 -vcodec copy -acodec copy -metadata service_name=tv.9 -f mpegts pipe:1
+
+
+#EXTINF:-1 tvg-name="002" tvg-id="tv.10" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.10.png",TVNZ 2
+pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i http://iptv.matthuisman.nz/nz/tv.10.m3u8 -vcodec copy -acodec copy -metadata service_name=tv.10 -f mpegts pipe:1
+
+
+#EXTINF:-1 tvg-name="003" tvg-id="tv.11" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.11.png",Three
+pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i http://iptv.matthuisman.nz/nz/tv.11.m3u8 -vcodec copy -acodec copy -metadata service_name=tv.11 -f mpegts pipe:1
+
+
+#EXTINF:-1 tvg-name="004" tvg-id="tv.12" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.12.png",Bravo
+pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i http://iptv.matthuisman.nz/nz/tv.12.m3u8 -vcodec copy -acodec copy -metadata service_name=tv.12 -f mpegts pipe:1
+
+
+#EXTINF:-1 tvg-name="005" tvg-id="tv.51" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.51.png",The Edge TV
+pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i http://iptv.matthuisman.nz/nz/tv.51.m3u8 -vcodec copy -acodec copy -metadata service_name=tv.51 -f mpegts pipe:1

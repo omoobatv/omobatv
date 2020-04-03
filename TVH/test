@@ -3249,3 +3249,5 @@ http://aliunde.esy.es/_aliunde/
 https://www.ast.tv/stream/1/cellular.m3u8  okunrinbinrin
 
 ffmpeg -i input.mp4 -vf scale=1920x1080:flags=lanczos output_1080p.mp4
+
+http://i.mjh.nz/nz/

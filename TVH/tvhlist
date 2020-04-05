@@ -14,12 +14,6 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bb
 #EXTINF:-1 tvg-id="BBCNews.uk"tvg-name="BBC News HD"tvg-logo=""group-title="BBC",BBC News HD
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_news24.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="BBC World News"tvg-name="BBC World News"tvg-logo=""group-title="BBC",BBC World News
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://bozztv.com/36bay2/gin/giniko_bbcworldnews_900kb_36bay2/playlist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
-
-#EXTINF:-1 tvg-id="ITV1London.uk"tvg-name="ITV HD"tvg-logo=""group-title="ITV",ITV HD
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master_Main1800.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
-
 #EXTINF:-1,ITV 2
 http://51.52.156.22:8888/http/005
 
@@ -28,14 +22,6 @@ http://51.52.156.22:8888/http/006
 
 #EXTINF:-1,ITV 4
 http://51.52.156.22:8888/http/007
-
-#EXTINF:-1 tvg-id="Nta"tvg-name="NTA"tvg-logo="",NTA
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-ntai-hsslive-25f-4x3-SD/chunklist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
-
-#EXTINF:-1 tvg-name="Sky News" tvg-id="SkyNews.uk" group-title="IPTV-UK" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/skynews.png",Sky News HD
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -i http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/05.m3u8 -vcodec copy -acodec copy -metadata service_name=Sky\ News -metadata service_provider=IPTV-UK -mpegts_service_type advanced_codec_digital_hdtv -vf scale=1920x1080:flags=lanczos output_1080p.mpegts pipe:1
-
-#EXTM3U
 
 #EXTINF:-1 tvg-name="901" tvg-id="RadioShoeLtd.1" tvg-logo="http://radiolemans.0157.org/audios/rs1logo.png" radio="true",RS1
 pipe://ffmpeg -i http://tx.sharp-stream.com/icecast.php?i=radioshow.mp3 -vn -acodec copy -metadata service_provider=Radio -metadata service_name=radioshowltd.1 -f mpegts -mpegts_service_type digital_radio pipe:1

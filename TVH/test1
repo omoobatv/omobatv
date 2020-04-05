@@ -7,6 +7,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "referer:eas
 #EXTINF:-1 tvg-name="004" tvg-id="tv.12" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.12.png",Bravo
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "X-Forwarded-For:66.171.228.102" -i "http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 ,Ball TV
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://stream.ecable.tv/kicc/index.m3u8" -f mpegts -vf scale="'w=if(gt(a,16/9),1920,-2):h=if(gt(a,16/9),-2,1080)'" -vcodec copy -acodec copy pipe:1
-
+#EXTINF:-1 tvg-id="937673bdd94fd5fa8eefe94aef16112a",ITV HD
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://81.109.67.33:9981/stream/channelnumber/104" -f mpegts -vcodec copy -acodec copy pipe:1

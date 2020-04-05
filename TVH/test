@@ -1,5 +1,7 @@
 #EXTM3U
 #EXTINF:0,Blaze [UK]
+http://fr01.spr24.net/792/mono.m3u8?token=hiVi8EHiq86NZA
+#EXTINF:0,Blaze 2[UK]
 http://fr01.spr24.net/24160/mpegts?token=BQF9PmuRpcxUqR
 #EXTINF:0,Yesterday [UK]
 http://fr01.spr24.net/24161/mpegts?token=BQF9PmuRpcxUqR

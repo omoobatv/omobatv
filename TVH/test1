@@ -5,7 +5,7 @@
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "referer:easyview.eu" -i "https://waw.easyview.eu/hls/e.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-name="004" tvg-id="tv.12" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.12.png",Bravo
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "X-Forwarded-For:66.171.228.102" -headers "User-Agent: Mozilla/5.0"  -i "http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "X-Forwarded-For:66.171.228.102" -i "http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 
 

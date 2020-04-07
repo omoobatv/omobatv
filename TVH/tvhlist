@@ -50,3 +50,6 @@ pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Ag
 
 #EXTINF:-1 tvg-name="005" tvg-id="tv.51" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.51.png",The Edge TV
 pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i http://iptv.matthuisman.nz/nz/tv.51.m3u8 -vcodec copy -acodec copy -metadata service_name=tv.51 -f mpegts pipe:1
+
+
+http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/03.m3u8

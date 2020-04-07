@@ -7,3 +7,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "referer:eas
 #EXTINF:-1 tvg-name="004" tvg-id="tv.12" tvg-logo="https://raw.githubusercontent.com/matthuisman/iptv/master/nz/images/tv.12.png",Bravo
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "X-Forwarded-For:66.171.228.102" -i "http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
+#EXTINF:-1 tvg-id="tv.46" tvg-logo="https://i.mjh.nz/nz/images/tv.46.png" tvg-chno="16",Al Jazeera
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i https://i.mjh.nz/nz/tv.46.m3u8 -vcodec copy -acodec copy -metadata service_name=tv.46 -f mpegts pipe:1

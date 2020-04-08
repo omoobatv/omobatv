@@ -23,3 +23,7 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:
 
 #EXTINF:-1 tvg-id="1322" tvg-logo="" tvg-chno="",Sky Sports Golf
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:phone" -i "https://cdn-laos.workpoint.news/uk-skysports-golf_720/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
+
+
+#EXTINF:-1 tvg-id="1302" tvg-logo="" tvg-chno="",Sky Sports Cricket
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:phone" -i "https://cdn-laos.workpoint.news/uk-skysports-cricket_720/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1

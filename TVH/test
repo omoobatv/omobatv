@@ -3255,3 +3255,5 @@ ffmpeg -i input.mp4 -vf scale=1920x1080:flags=lanczos output_1080p.mp4
 http://i.mjh.nz/nz/
 
 http://proxyts.ec.cx:8082/hls1/cartoon.m3u8?wmsAuthSign=
+
+https://cdn-laos.workpoint.news/sd-bbclifestyle_720/index.m3u8

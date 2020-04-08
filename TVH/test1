@@ -13,5 +13,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -head
 #EXTINF:-1 tvg-id="tv.4" tvg-logo="" tvg-chno="16",Love Nature 4k
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://103.47.132.165/PLTV/88888888/224/3221227339/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1 tvg-id="tv.80" tvg-logo="" tvg-chno="80",BB Parl
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://vs-dash-uk-live.akamaized.net/pool_902/live/uk/cbeebies_hd/cbeebies_hd.isml/pc_hd_abr_v2_dash.mpd" -f mp4 -vcodec copy -acodec copy pipe:1
+#EXTINF:-1 tvg-id="SkySports1.uk" tvg-logo="" tvg-chno="80",Sky Sport Main Event
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "https://cdn-laos.workpoint.news/uk-skysports-mainevent_720/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1

@@ -13,3 +13,5 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -head
 #EXTINF:-1 tvg-id="tv.4" tvg-logo="" tvg-chno="16",Love Nature 4k
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://103.47.132.165/PLTV/88888888/224/3221227339/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
+#EXTINF:-1 tvg-id="6966bc400722b66ff4eab28e2b33b5a3",HGTV US
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "referer:https://www.sports24.stream/tv/v?id=hgtv" -i "https://www.sports24.stream/hls/get.m3u8?ch=hgtv" -f mpegts -vcodec copy -acodec copy pipe:1

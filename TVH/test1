@@ -13,5 +13,4 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -loglevel fatal -head
 #EXTINF:-1 tvg-id="tv.4" tvg-logo="" tvg-chno="16",Love Nature 4k
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://103.47.132.165/PLTV/88888888/224/3221227339/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
-#EXTINF:-1,AIT International HD
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -i "http://portal.geniptv.com:8080/max1971/mq3dwO5Pno/4690" -f mpegts -vcodec copy -acodec copy pipe:1
+

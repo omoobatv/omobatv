@@ -54,7 +54,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/40-rabbana-dua.asp</page>
+<page>https://www.quran411.com/40-rabbana-dua</page>
 </regex>
 <thumbnail>http://s19.postimg.org/zg2iqsgkf/rabanans.png</thumbnail>
 </item>

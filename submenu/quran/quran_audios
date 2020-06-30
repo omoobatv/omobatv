@@ -43,7 +43,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/99-names-of-allah.asp</page>
+<page>http://www.quran411.com/99-names-of-allah</page>
 </regex>
 <thumbnail>http://s19.postimg.org/ykxllsf6n/99_Names_of_Allah.jpg</thumbnail>
 </item>

@@ -76,7 +76,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/surah-nas.asp</page>
+<page>https://www.quran411.com/surah-nas?r=11</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>

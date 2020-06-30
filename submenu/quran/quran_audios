@@ -65,7 +65,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/surah-falaq.asp</page>
+<page>https://www.quran411.com/surah-falaq?r=11</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>
@@ -88,7 +88,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/ayatul-kursi.asp</page>
+<page>http://www.quran411.com/ayatul-kursi?r=11</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>
@@ -99,7 +99,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/surah-ikhlas.asp</page>
+<page>http://www.quran411.com/surah-ikhlas?r=11</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>
@@ -110,7 +110,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/surah-baqarah.asp</page>
+<page>http://www.quran411.com/surah-baqarah?r=11</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>
@@ -122,7 +122,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/surah-kahf.asp</page>
+<page>http://www.quran411.com/surah-kahf?r=11</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>
@@ -151,7 +151,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/surah-duha.asp</page>
+<page>http://www.quran411.com/surah-duha?r=11</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>

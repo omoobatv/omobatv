@@ -167,7 +167,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(h.*?.mp3)"</expres>
+<expres>sound-data="(h.*mp3.*?)"</expres>
 <page>http://suratmp3.com/modules/mp3Quran/en/listen/25/36/</page>
 </regex>
 <thumbnail></thumbnail>

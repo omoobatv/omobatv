@@ -8,14 +8,14 @@
 
 <item>
 <title>[COLOR white]Welcome to the Woods[/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/UCDJX_FJB3bGF8Dq1gxQnv9g/?page=0</jsonrpc>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCDJX_FJB3bGF8Dq1gxQnv9g/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AAUvwniTuEchvfuSRjl2LfPlXKn5p-sQMIN8I7pp58k7=s88-c-k-c0x00ffffff-no-rj</thumbnail>
 <link>ignoreme</link>
 </item>
 
 <item>
 <title>[COLOR white]Charlie DIYte[/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/UC7x7wk8yeN2ZEJCo6BgP2ag/?page=0</jsonrpc>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC7x7wk8yeN2ZEJCo6BgP2ag/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AAUvwnjht_VPMYAU1DnGxyxp7opKJc6-wrlb-AWiWYkI=s88-c-k-c0x00ffffff-no-rj</thumbnail>
 <link>ignoreme</link>
 </item>

@@ -15,11 +15,34 @@
 <link>ignoreme</link>
 </item>
 
+<item>
+<title>[COLOR white] LibraTv [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCvpK1k1i23Xi5TM-ZDuSNDw/?page=0</jsonrpc>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/libratv.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+<item>
+<title>[COLOR white] Yoruba Play [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCK2-495cMvdhaMqXcLlgmcg/?page=0</jsonrpc>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubaplay.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
 
 <item>
 <title>[COLOR white] Yoruba TV+ [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCeAH89bVuCLxp7MPOBZFZNQ/?page=0</jsonrpc>
 <thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubatvplus.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+<item>
+<title>[COLOR white]Asiwaju Tv [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCOS9it1CyE9ZoTgMLoJLkAQ/?page=0</jsonrpc>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/karatv.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
@@ -50,13 +73,6 @@
 </item>
 
 
-<item>
-<title>[COLOR white] LibraTv [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UCvpK1k1i23Xi5TM-ZDuSNDw/?page=0</jsonrpc>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/libratv.jpg</thumbnail>
-<fanart></fanart>
-<link>ignoreme</link>
-</item>
 
 <item>
 <title>[COLOR white] MovieBox [/COLOR]</title>
@@ -76,14 +92,6 @@
 
 
 
-<item>
-<title>[COLOR white]Asiwaju Tv [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UCOS9it1CyE9ZoTgMLoJLkAQ/?page=0</jsonrpc>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/karatv.jpg</thumbnail>
-<fanart></fanart>
-<link>ignoreme</link>
-</item>
-
 
 <item>
 <title>[COLOR white] Integrity Tv [/COLOR]</title>
@@ -101,13 +109,6 @@
 <link>ignoreme</link>
 </item>
 
-<item>
-<title>[COLOR white] Yoruba Play [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UCK2-495cMvdhaMqXcLlgmcg/?page=0</jsonrpc>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubaplay.jpg</thumbnail>
-<fanart></fanart>
-<link>ignoreme</link>
-</item>
 
 
 <item>

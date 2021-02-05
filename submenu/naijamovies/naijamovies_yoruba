@@ -56,6 +56,14 @@
 </item>
 
 <item>
+<title>[COLOR white] ApreelTV [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCtxAzA1_YvpxvDpv-otEdCw/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/ytc/AAUvwnjGq9NvlnfIMuK6pUZNzCyA5RpGPrB8u36AmH3EQw=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+<item>
 <title>[COLOR white] OlumoTV [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCq_YeWiz_DBjBYshEpSHdkA/?page=0</jsonrpc>
 <thumbnail>special://home/addons/plugin.video.naijaMovies/img/olumotv.jpg</thumbnail>

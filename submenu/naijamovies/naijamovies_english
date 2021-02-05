@@ -7,6 +7,14 @@
 </item>
 
 <item>
+<title>[COLOR white]Chanel Ambrose[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCVuexNvGLaIL2qCjIU238Uw/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/ytc/AAUvwnjRXxzUYoDTN54KP3EA-zHRm34ceoSISQ1Jh2mmmQ=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+<item>
 <title>[COLOR white]Welcome to the Woods[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCDJX_FJB3bGF8Dq1gxQnv9g/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AAUvwniTuEchvfuSRjl2LfPlXKn5p-sQMIN8I7pp58k7=s900-c-k-c0x00ffffff-no-rj</thumbnail>
@@ -28,14 +36,6 @@
 </item>
 
 
-
-<item>
-<title>[COLOR white]NelNaijaTV[/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UC1incd-mtWZclX_hvz5ihDw/?page=0</jsonrpc>
-<thumbnail>https://yt3.ggpht.com/a/AATXAJy_4aFqqWTjI6Rg_eYSjhAMZQbVdXN-w94PIw=s288-c-k-c0xffffffff-no-rj-mo</thumbnail>
-<fanart></fanart>
-<link>ignoreme</link>
-</item>
 
 <item>
 <title>[COLOR white]Top African Movies[/COLOR]</title>

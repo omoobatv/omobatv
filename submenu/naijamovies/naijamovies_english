@@ -28,6 +28,14 @@
 <link>ignoreme</link>
 </item>
 
+
+<item>
+<title>[COLOR white]HomeStyle[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCJIl-LjhC8evMjGZrcPk91g/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/ytc/AAUvwnj8KKidcbYoP4TGiF7xsdWCkYItgMMtRF-TS-HecQ=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+<link>ignoreme</link>
+</item>
+
 <item>
 <title>[COLOR white]Property Investment[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCYQL5B_QB8J69DZlb41NwoA/?page=0</jsonrpc>

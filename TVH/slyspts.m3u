@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-id="1301" tvg-logo="" tvg-chno="",Sky Sport Main Event
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:iphone" -i "https://cdn-laos.workpoint.news/uk-skysports-mainevent_720/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:iphone" -i "http://160.119.77.116:8081/iptv/uk-skysports-mainevent.stream/playlist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="3838" tvg-logo="" tvg-chno="",Sky Sports Football
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:iphone" -i "https://cdn-laos.workpoint.news/uk-skysports-football_720/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
@@ -19,7 +19,7 @@ pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:iphone" -i "https://cdn-laos.workpoint.news/uk-skysports-arena_720/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="1306" tvg-logo="" tvg-chno="",Sky Sports F1
-pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:iphone" -i "https://cdn-laos.workpoint.news/uk-skysports-f1_720/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
+pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:iphone" -i "http://160.119.77.116:8081/iptv/uk-skysports-f1.stream/playlist.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1
 
 #EXTINF:-1 tvg-id="1322" tvg-logo="" tvg-chno="",Sky Sports Golf
 pipe:///storage/.kodi/addons/tools.ffmpeg-tools/bin/ffmpeg -headers "User-Agent:iphone" -i "https://cdn-laos.workpoint.news/uk-skysports-golf_720/index.m3u8" -f mpegts -vcodec copy -acodec copy pipe:1

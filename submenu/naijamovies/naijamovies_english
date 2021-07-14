@@ -78,3 +78,189 @@
 </item>
 
 
+<item>
+ <title>BBC OneHD</title>
+ <link>$doregex[reg1]|Referer=https://tvpc.us/player/?cid=13&amp;User-Agent=Mozilla/5.0</link>
+ <regex>
+ <name>reg1</name>
+ <expres>src: "([^"]+)</expres>
+ <page>https://tvpc.us/player/?cid=13</page>
+ <referer></referer>
+ </regex>
+ <thumbnail>http://i63.tinypic.com/jg5ehg.jpg</thumbnail>
+ <summary>I DO NOT OWN OR HOST THESE STREAMING LINKS.THEY ARE FREELY AVAILABLE ON THE INTERNET.Credits to the owners</summary>
+ </item>
+
+
+<item>
+ <title>ITVOneHD</title>
+ <link>https://waw.easyview.eu/hls/itv.m3u8|Referer=https://easyview.eu/watch.php?stream=itv&amp;User-Agent=iphone</link>
+ <thumbnail>http://i63.tinypic.com/jg5ehg.jpg</thumbnail>
+ <summary>I DO NOT OWN OR HOST THESE STREAMING LINKS.THEY ARE FREELY AVAILABLE ON THE INTERNET.Credits to the owners</summary>
+ </item>
+
+
+
+
+
+<item>
+<title>E4</title>
+<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=13&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>src.*?"(h.*m3u8.*?)"</expres>
+<page>https://tvpc.us/player/?cid=13</page>
+<referer>https://tvpc.us/player/?cid=13</referer>
+</regex>
+</item>
+
+
+<item>
+<title>More4</title>
+<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=14&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>src.*?"(h.*m3u8.*?)"</expres>
+<page>https://tvpc.us/player/?cid=14</page>
+<referer>https://tvpc.us/player/?cid=14</referer>
+</regex>
+</item>
+
+
+<item>
+<title>Channel 4</title>
+<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=3&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>src.*?"(h.*m3u8.*?)"</expres>
+<page>https://tvpc.us/player/?cid=3</page>
+<referer>https://tvpc.us/player/?cid=3</referer>
+</regex>
+</item>
+
+
+
+<item>
+ <title>Channel 5</title>
+ <link>https://uk.easyview.eu/hls/channel5.m3u8|Referer=https://easyview.eu/watch.php?stream=channel5&amp;User-Agent=iphone</link>
+ <thumbnail>http://i63.tinypic.com/jg5ehg.jpg</thumbnail>
+ <summary>I DO NOT OWN OR HOST THESE STREAMING LINKS.THEY ARE FREELY AVAILABLE ON THE INTERNET.Credits to the owners</summary>
+ </item>
+
+
+
+<title>Channel 5</title>
+<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=11&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>src.*?"(h.*m3u8.*?)"</expres>
+<page>https://tvpc.us/player/?cid=11</page>
+<referer>https://tvpc.us/player/?cid=11</referer>
+</regex>
+</item>
+
+
+
+<title>[COLOR white]Arami[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UChl5Se6TXmyfGBg0tw9OSJA/?page=0</jsonrpc>
+<thumbnail>http://i65.tinypic.com/24b58ns.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+<item>
+<title>[COLOR white]Skinny girl in transit 1, 2, 3[/COLOR]</title>
+<utube>PL6WdrbJFouUsvrKynwzut1UOWrVWHGO08&amp;order=default&amp;play=1</utube>
+<thumbnail></thumbnail>
+</item>
+
+
+<tem>
+<title>Big Brother</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>source src="(.*m3u8)"</expres>
+<page>https://estream.to/embed-5vglie3i0fto.html</page>
+<referer>https://watch-series.io/series/celebrity-big-brother-season-21-episode-17</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
+</regex>
+</item>
+
+
+<tem>
+<title>Kardashian</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>source src="(.*m3u8)"</expres>
+<page>https://estream.to/embed-nkqb156dgnrp.html</page>
+<referer>https://watch-series.io/series/celebrity-big-brother-season-21-episode-17</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
+</regex>
+</item>
+
+
+<item>
+<title>Prank</title> 
+<utube>v-OZFRZPDv0</utube> 
+<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+</item>
+
+
+<tem>
+<title>Facebook</title>
+<link>$doregex[clean-m3u8]|Referer=https://www.facebook.com</link>
+<regex>
+    <name>clean-m3u8</name>
+    <expres>$pyFunction:'$doregex[get-m3u8]'.replace('\/','/')</expres>
+    <page></page>
+</regex>
+ 
+<regex>
+<name>get-m3u8</name>
+<expres>".*d_src_no_ratelimit":"(.*?)"</expres>
+<page>https://www.facebook.com/video/embed?video_id=317514722115046</page>
+<referer>https://www.facebook.com</referer>
+</regex>
+</item>
+
+
+<tem>
+<title>Dorcas</title>
+<link>$doregex[clean-m3u8]|Referer=https://www.facebook.com</link>
+<regex>
+    <name>clean-m3u8</name>
+    <expres>$pyFunction:'$doregex[get-m3u8]'.replace('\/','/')</expres>
+    <page></page>
+</regex>
+ 
+<regex>
+<name>get-m3u8</name>
+<expres>".*d_src_no_ratelimit.*?"(h[^"]+)</expres>
+<page>https://www.facebook.com/video/embed?video_id=181220809321170</page>
+<referer>https://www.facebook.com</referer>
+</regex>
+</item>
+
+
+
+
+
+
+<tem>
+<title>Omoba TV0</title> 
+<link>http://cubenu.com:8080/hls/adobe/master.m3u8|User-Agent=iphone</link>
+<regex>
+<name>reg1</name>
+<expres>x-mpegurl" src.*[",'](.*?)[",']</expres>
+<page>http://naijal.com</page>
+<referer>http://naijal.com</referer>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/naijaping/omobatv/master/images/bbnaija.jpg</thumbnail>
+</item>$doregex[reg1]|User-Agent=iphone
+http://cubenu.com:8080/adobe.html
+
+

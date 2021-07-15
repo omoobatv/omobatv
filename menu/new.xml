@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <channels>
-
 <channel>
 <name>Yoruba Movies</name>
 <thumbnail>special://home/addons/plugin.video.naijaMovies/img/Yorumovies.png</thumbnail>
@@ -25,5 +24,4 @@
 <fanart></fanart>
 <info></info>
 </channel>
-
 </channels>

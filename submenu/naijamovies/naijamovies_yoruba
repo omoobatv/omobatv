@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
+<items>
+
 <item>
 <title>[COLOR white]APATATV+[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC83tx3zGcvQ_rXzsZigTnEA/?page=0</jsonrpc>
@@ -137,4 +139,4 @@
 <link>ignoreme</link>
 </item>
 
-
+</items>

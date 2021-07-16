@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
+<items>
+
 <item>
 <title>[COLOR white]GoldMyneTV[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCm13Lc7j4DmtAkSW5USBiiw/?page=0</jsonrpc>
@@ -17,3 +19,5 @@
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
+
+</items>

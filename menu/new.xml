@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <items>
-<item>
-<title>Yoruba Movies</title>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/Yorumovies.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba.xml</externallink>
-<fanart>special://home/addons/plugin.video.naijaMovies/img/Yorumovies.png</fanart>
-</item>
-
-<item>
-<title>English Movies</title>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/englishmovies.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_english.xml</externallink>
-</item>
-
-<item>
-<title>Latest Events</title>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/goldmynetv.jpg</thumbnail>
-<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/latest_events.xml</externallink>
-</item>
+    <item>
+        <title>Yoruba Movies</title>
+        <thumbnail>special://home/addons/plugin.video.naijaMovies/img/Yorumovies.png</thumbnail>
+        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba.xml</externallink>
+        <fanart>special://home/addons/plugin.video.naijaMovies/img/Yorumovies.png</fanart>
+    </item>
+    <item>
+        <title>English Movies</title>
+        <thumbnail>special://home/addons/plugin.video.naijaMovies/img/englishmovies.png</thumbnail>
+        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_english.xml</externallink>
+    </item>
+    <item>
+        <title>Latest Events</title>
+        <thumbnail>special://home/addons/plugin.video.naijaMovies/img/goldmynetv.jpg</thumbnail>
+        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/latest_events.xml</externallink>
+    </item>
 </items>
+
+
+
 

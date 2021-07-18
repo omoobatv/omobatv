@@ -2,17 +2,17 @@
 <channels>
     <channel>
         <name>Yoruba Movies</name>
-        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba.xml</externallink>
+        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>
         <thumbnail>special://home/addons/plugin.video.naijaMovies/img/Yorumovies.png</thumbnail>
     </channel>
     <channel>
         <name>English Movies</name>
-        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_english.xml</externallink>
+        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_english</externallink>
         <thumbnail>special://home/addons/plugin.video.naijaMovies/img/englishmovies.png</thumbnail>
     </channel>
     <channel>
         <name>Latest Events</name>
-        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/latest_events.xml</externallink>
+        <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/latest_events</externallink>
         <thumbnail>special://home/addons/plugin.video.naijaMovies/img/goldmynetv.jpg</thumbnail>
     </channel>
 </channels>

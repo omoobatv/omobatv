@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <channels>
     <channel>
-        <name>  channel1   </name>
+        <name>channel1</name>
         <info></info>
         <thumbnail>http://www.transparenttextures.com/patterns/asfalt-light.png</thumbnail>
         <fanart></fanart>
@@ -9,17 +9,17 @@
             <item>
                 <title>aaa</title>
                 <link>NA</link>
-                <externallink>/FULL/PATH/mylist.xml</externallink>
+                <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>
             </item>
             <item>
                 <title>bbb2</title>
                 <link>NA</link>
-                <externallink>http://pastebin.com/raw/12345678</externallink>
+                <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>
             </item>
         </items>
     </channel>
     <channel>
-        <name>  channel 2 </name>
+        <name>hannel 2</name>
         <info></info>
         <thumbnail>http://www.transparenttextures.com/patterns/asfalt-light.png</thumbnail>
         <fanart></fanart>
@@ -27,7 +27,7 @@
             <item>
                 <title>ccc</title>
                 <link>NA</link>
-                <externallink>/FULL/PATH/another.xml</externallink>
+                <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>
             </item>
         </items>
     </channel>

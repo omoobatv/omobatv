@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <channels>
     <channel>
-        <name> Naija TV </name>
+        <name>Naija TV</name>
         <info></info>
         <thumbnail>http://www.transparenttextures.com/patterns/asfalt-light.png</thumbnail>
         <fanart></fanart>
         <items>
             <item>
-                <title> Naija TELI 1 </title>
+                <title>Naija TELI 1</title>
                 <link>NA</link>
-                <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>
+                <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/latest_events</externallink>
             </item>
             <item>
-                <title> Yoruba Movies </title>
+                <title>Yoruba Movies</title>
                 <link>NA</link>
-                <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>
+                <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/latest_events</externallink>
             </item>
         </items>
     </channel>

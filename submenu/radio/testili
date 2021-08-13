@@ -1,0 +1,29 @@
+<item>
+<title>piscuajo</title>
+<thumbnail>https://yt3.ggpht.com/ytc/AKedOLQFAEtvVbeVgzQIRZqvYJFCZhnuLorUy9zl4O2f</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist.param2]</title>
+  <urlsolve>https://www.youtube.com/watch?v=[makelist.param1]</urlsolve>
+  <info>[makelist.param2]</info>
+  <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  try:
+    import urllib
+    page_data=urllib.urlopen('https://www.youtube.com/c/piscuajo/videos').read().decode('utf-8')
+  except:
+    import urllib.request
+    page_data=urllib.request.urlopen('https://www.youtube.com/c/piscuajo/videos').read().decode('utf-8')
+  jdata=re.findall('"sectionListRenderer":{"contents"(?s)(.*?)id="container"',page_data)[0].replace('\\u0026','&')
+  YTid=re.findall('"gridVideoRenderer":{"videoId":"([^"]+)',jdata)
+  title=re.findall('"gridVideoRenderer":{"videoId":[\w\W]+?"accessibilityData":{"label":"(.+?)(?:\s*by|"})',jdata)
+  return list(zip(YTid,title))
+]]></expres>
+<page></page>
+</regex>
+</item>

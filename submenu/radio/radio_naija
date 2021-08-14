@@ -211,7 +211,7 @@
 
 <item>
 <title>Winners Radio</title>
-<link>http://radio.shoutcastmedia.net:8302/&radiotype</link>
+<link>http://radio.shoutcastmedia.net:8302/&amp;radiotype</link>
 <thumbnail></thumbnail>
 </item>
 

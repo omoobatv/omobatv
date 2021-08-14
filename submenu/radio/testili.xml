@@ -258,18 +258,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
  
-<item>
-<title>ITV HD</title>
-<link>$doregex[reg1]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>reg1</name>
-<expres>itvONEhd src="(.*?)"</expres>
-<page>https://www.dropbox.com/s/3rev3ebyhetta5y/fox.xml?dl=1</page>
-<agent>Mozilla/5.0</agent>
-</regex>
-<thumbnail>special://home/media/piconQ/itvhd.png</thumbnail>
-<thumbnail>http://gg.gg/itv1hd</thumbnail>
-</item>
+
     
 
 

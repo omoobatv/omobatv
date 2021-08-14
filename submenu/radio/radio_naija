@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
 
 <item>
 <title>Lagelu FM</title>
@@ -272,6 +274,8 @@
 <link>http://maxfm1023.thrilliant.com.ng:9193/stream</link>
 <thumbnail>https://mytuner.global.ssl.fastly.net/media/tvos_radios/c6mdth65hhn5.png</thumbnail>
 </item>
+
+</items>
 
 <tem>
 <title>Sky00</title> 

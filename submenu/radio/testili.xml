@@ -1,32 +1,231 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
 
 <item>
-<title>piscuajo</title>
-<thumbnail>https://yt3.ggpht.com/ytc/AKedOLQFAEtvVbeVgzQIRZqvYJFCZhnuLorUy9zl4O2f</thumbnail>
+<title>Real America's Voice Live Feed</title>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<thumbnail>https://cdn.americasvoice.news/static/images/home-logo/logo.png</thumbnail>
+<link>https://content-ausw1.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8</link>
+</item>
+
+<item>
+<title>The War Room</title>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<thumbnail>https://cdn.americasvoice.news/images/16f067877e90030f7065435080929d04.jpg</thumbnail>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-  <title>[makelist.param2]</title>
-  <urlsolve>https://www.youtube.com/watch?v=[makelist.param1]</urlsolve>
-  <info>[makelist.param2]</info>
-  <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
+    <title>[COLOR gold][makelist.param5] [makelist.param6][/COLOR] [makelist.param1]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
 ]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  try:
-    import urllib
-    page_data=urllib.urlopen('https://www.youtube.com/c/piscuajo/videos').read().decode('utf-8')
-  except:
-    import urllib.request
-    page_data=urllib.request.urlopen('https://www.youtube.com/c/piscuajo/videos').read().decode('utf-8')
-  jdata=re.findall('"sectionListRenderer":{"contents"(?s)(.*?)id="container"',page_data)[0].replace('\\u0026','&')
-  YTid=re.findall('"gridVideoRenderer":{"videoId":"([^"]+)',jdata)
-  title=re.findall('"gridVideoRenderer":{"videoId":[\w\W]+?"accessibilityData":{"label":"(.+?)(?:\s*by|"})',jdata)
-  return list(zip(YTid,title))
-]]></expres>
-<page></page>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"description":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/the-war-room/</page>
 </regex>
 </item>
+
+<item>
+<title>Outside The Beltway</title>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<thumbnail>https://www.johnfredericksradio.com/wp-content/uploads/2021/03/outside-the-beltway-768x536.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/outside-the-beltway/</page>
+</regex>
+</item>
+
+<item>
+<title>America's Voice</title>
+<thumbnail>https://i.ytimg.com/vi/IRZPzVHHvJU/maxresdefault.jpg</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/americas-voice-live/</page>
+</regex>
+</item>
+
+<item>
+<title>The Steve Gruber Show</title>
+<thumbnail>http://www.soonerpolitics.org/uploads/1/6/2/2/16224166/909809435.jpg</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/the-steve-gruber-show/</page>
+</regex>
+</item>
+
+<item>
+<title>Just the News AM</title>
+<thumbnail>https://i.ytimg.com/vi/_bdj3QMoOWc/maxresdefault.jpg</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/just-the-news-am/</page>
+</regex>
+</item>
+
+<item>
+<title>Just the Truth</title>
+<thumbnail>https://static-3.bitchute.com/live/cover_images/OAPTnXsaqDme/Ho78fLaG6Oh0_640x360.jpg</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/just-the-truth/</page>
+</regex>
+</item>
+
+<item>
+<title>Securing America</title>
+<thumbnail>https://www.securingamerica.tv/wp-content/uploads/SATV_Share_FB_SocMedia_1200x630.jpg</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/securing-america/</page>
+</regex>
+</item>
+
+<item>
+<title>The Water Cooler</title>
+<thumbnail>https://i.ytimg.com/vi/Hw5NUfbgxvI/maxresdefault.jpg</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/the-water-cooler/</page>
+</regex>
+</item>
+
+<item>
+<title>Live From Studio 6B</title>
+<thumbnail>https://cdn-profiles.tunein.com/p1321752/images/logog.png?t=1</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/live-from-studio-6b/</page>
+</regex>
+</item>
+
+<item>
+<title>News On</title>
+<thumbnail>https://www.wjfnradio.com/wp-content/uploads/2021/02/khan-WJFN-SLIDER-2021-V2-978x400.png</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/news-on/</page>
+</regex>
+</item>
+
+<item>
+<title>Smack Down</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pastor_Darrell_Scott_2016_RNC.jpg/800px-Pastor_Darrell_Scott_2016_RNC.jpg</thumbnail>
+<fanart>https://github.com/Magic-Dust/MagicDust/raw/master/fanart.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR gold][makelist.param1][/COLOR] [makelist.param5] [makelist.param6]</title>
+    <link>[makelist.param2]</link>
+    <fanart>[makelist.param3]</fanart>
+    <thumbnail>[makelist.param3]</thumbnail>
+    <description>[makelist.param5]</description>
+    <date>[makelist.param6]</date>
+]]></listrepeat>
+<expres><![CDATA[","title":"([^"]*)","type":"video","url":"([^"]*).*?poster":"([^"]*).*?"shortDescription":"([^"]*).*?created_at":"([^T]*)T([^.]*)]]></expres>
+<page>https://americasvoice.news/playlists/smack-down/</page>
+</regex>
+</item>
+
+</items>

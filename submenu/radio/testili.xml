@@ -269,13 +269,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
     
-<item>
-<title>[COLOR white]APATATV+[/COLOR]</title>
-<link>ignoreme</link>
-<utube>UC83tx3zGcvQ_rXzsZigTnEA</utube>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/apatatv.jpg</thumbnail>
-<fanart></fanart>
-</item>
+
 
 
 </items>

@@ -268,6 +268,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer>https://bestteachers4u.com/premiumsd/</referer>
 </regex>
 </item>
+    
+<item>
+<title>[COLOR white]APATATV+[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC83tx3zGcvQ_rXzsZigTnEA/?page=0</jsonrpc>
+<thumbnail>special://home/addons/plugin.video.naijaMovies/img/apatatv.jpg</thumbnail>
+<fanart></fanart>
+</item>
 
 
 </items>

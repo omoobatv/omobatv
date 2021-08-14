@@ -257,5 +257,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 </item>
+ 
+<item>
+<title>BBNaija1b</title>
+<link>$doregex[getFile]|Referer=https://bestteachers4u.com/&amp;User-Agent=Mozilla/5.0</link>
+<regex>
+<name>getFile</name>
+<expres>source: '([^']+)'</expres>
+<page>https://bestteachers4u.com/premiumsd/</page>
+<referer>https://bestteachers4u.com/premiumsd/</referer>
+</regex>
+</item>
+
 
 </items>

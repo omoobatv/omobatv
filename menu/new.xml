@@ -7,6 +7,19 @@
         <link>ignore</link>
         <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/radio/testili.xml</externallink>
     </channel>
+    
+    <channel>
+        <name>[COLOR white]APATATV+[/COLOR]</name>
+        <thumbnail>http://i58.tinypic.com/335a529.jpg</thumbnail>
+        <fanart>http://i58.tinypic.com/335a529.jpg</fanart>
+        <link>ignore</link>
+        <jsonrpc>Plugin://plugin.video.youtube/channel/UC83tx3zGcvQ_rXzsZigTnEA/?page=0</jsonrpc>
+    </channel>
+    
+    
+    
+    
+    
 </channels>
 
 

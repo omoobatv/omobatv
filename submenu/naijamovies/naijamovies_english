@@ -146,26 +146,6 @@
 </item>
 
 
-
-<title>Channel 5</title>
-<link>$doregex[getFile]|Referer=https://tvpc.us/player/?cid=11&amp;User-Agent=Mozilla/5.0</link>
-<regex>
-<name>getFile</name>
-<expres>src.*?"(h.*m3u8.*?)"</expres>
-<page>https://tvpc.us/player/?cid=11</page>
-<referer>https://tvpc.us/player/?cid=11</referer>
-</regex>
-</item>
-
-
-
-<title>[COLOR white]Arami[/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UChl5Se6TXmyfGBg0tw9OSJA/?page=0</jsonrpc>
-<thumbnail>http://i65.tinypic.com/24b58ns.jpg</thumbnail>
-<fanart></fanart>
-<link>ignoreme</link>
-</item>
-
 <item>
 <title>[COLOR white]Skinny girl in transit 1, 2, 3[/COLOR]</title>
 <utube>PL6WdrbJFouUsvrKynwzut1UOWrVWHGO08&amp;order=default&amp;play=1</utube>

@@ -60,7 +60,6 @@
 </item>
 
 
-
 <item>
 <title>[COLOR white]Top African Movies[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCokUd0Jy-B_Frq1aFR2Ao3Q/?page=0</jsonrpc>
@@ -68,8 +67,6 @@
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
-
-
 
 
 <item>
@@ -152,42 +149,10 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<tem>
-<title>Big Brother</title>
-<link>$doregex[getM3U8]</link>
-<regex>
-<name>getM3U8</name>
-<expres>source src="(.*m3u8)"</expres>
-<page>https://estream.to/embed-5vglie3i0fto.html</page>
-<referer>https://watch-series.io/series/celebrity-big-brother-season-21-episode-17</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
-</regex>
-</item>
-
-
-<tem>
-<title>Kardashian</title>
-<link>$doregex[getM3U8]</link>
-<regex>
-<name>getM3U8</name>
-<expres>source src="(.*m3u8)"</expres>
-<page>https://estream.to/embed-nkqb156dgnrp.html</page>
-<referer>https://watch-series.io/series/celebrity-big-brother-season-21-episode-17</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
-</regex>
-</item>
-
-
 <item>
 <title>Prank</title> 
 <utube>v-OZFRZPDv0</utube> 
 <thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
 </item>
-
-
-
 
 </items>

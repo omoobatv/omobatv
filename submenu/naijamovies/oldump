@@ -46,3 +46,11 @@
 <thumbnail>https://raw.githubusercontent.com/naijaping/omobatv/master/images/bbnaija.jpg</thumbnail>
 </item>$doregex[reg1]|User-Agent=iphone
 http://cubenu.com:8080/adobe.html
+
+
+<title>[COLOR white]Arami[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UChl5Se6TXmyfGBg0tw9OSJA/?page=0</jsonrpc>
+<thumbnail>http://i65.tinypic.com/24b58ns.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>

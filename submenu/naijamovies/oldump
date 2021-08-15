@@ -54,3 +54,30 @@ http://cubenu.com:8080/adobe.html
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
+
+<tem>
+<title>Big Brother</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>source src="(.*m3u8)"</expres>
+<page>https://estream.to/embed-5vglie3i0fto.html</page>
+<referer>https://watch-series.io/series/celebrity-big-brother-season-21-episode-17</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
+</regex>
+</item>
+
+
+<tem>
+<title>Kardashian</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>source src="(.*m3u8)"</expres>
+<page>https://estream.to/embed-nkqb156dgnrp.html</page>
+<referer>https://watch-series.io/series/celebrity-big-brother-season-21-episode-17</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
+</regex>
+</item>

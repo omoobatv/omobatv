@@ -4,7 +4,8 @@
 <channel>
 <name>Yoruba Movies</name>
 <thumbnail>special://home/addons/plugin.video.naijaMovies/img/Yorumovies.png</thumbnail>
-
+<items> 
+  
 <item>
 <title>[COLOR white]APATATV+[/COLOR]</title>
 <link>ignoreme</link>
@@ -116,13 +117,16 @@
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCDF1tRy_Y0j0vLHOoL9dndw/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/a/AGF-l78zLGFFV5F_fvcPhm34UIELiUq2yC2E34UXgQ=s176-c-k-c0x00ffffff-no-rj-mo</thumbnail>
 </item>  
+
+</items>
 </channel>
 
 
 <channel>
 <name>English Movies</name>
 <thumbnail>special://home/addons/plugin.video.naijaMovies/img/englishmovies.png</thumbnail>
-
+<items>
+  
 <item>
 <title>[COLOR white]Shade Shanon[/COLOR]</title>
 <link>ignoreme</link>
@@ -274,13 +278,16 @@
 <utube>v-OZFRZPDv0</utube> 
 <thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
 </item>  
+
+</items>
 </channel>
  
 
 <channel>
 <name>Latest Events</name>
 <thumbnail>special://home/addons/plugin.video.naijaMovies/img/goldmynetv.jpg</thumbnail>
-
+<items>
+  
 <item>
 <title>[COLOR white]GoldMyneTV[/COLOR]</title>
 <link>ignoreme</link>
@@ -294,6 +301,8 @@
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCUS_QkfIePZ7V1zhf_r5miA/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AAUvwnhB8pXw0z12gG2CW3JPIXPeZWdE7fYDN-aIZuES=s900-c-k-c0x00ffffff-no-rj</thumbnail>
 </item>
+  
+</items>
 </channel>
 
 </channels>

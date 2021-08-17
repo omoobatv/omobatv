@@ -2,12 +2,6 @@
 <items>
 
 <item>
-<title>Favourites</title>
-<link>http://ignoreme</link>
-<thumbnail>special://home/addons/plugin.video.naijaMovies/img/favorites.png</thumbnail>
-</item>
-
-<item>
 <title>Yoruba Movies</title>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/naijamovies/naijamovies_yoruba</externallink>

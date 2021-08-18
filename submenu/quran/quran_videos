@@ -15,23 +15,21 @@
  
 <item>
 <title>Muslim TV Ahmadiyya</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<link>$doregex[dummy]</link>
 <regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://ooyalahd2-f.akamaihd.net/z/mtaurdu_delivery@350117/manifest.f4m?g=YWDMKPHNRYHS&amp;hdcore=2.10.3')<expres>
+<name>dummy</name>
+<expres>$pyFunction:str('http://ooyalahd2-f.akamaihd.net/z/mtaurdu_delivery@350117/manifest.f4m?g=YWDMKPHNRYHS&amp;hdcore=2.10.3')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mta_tv_uk_international.png</thumbnail>
 </item>
- 
+  
 <item>
 <title>Mecca Live</title>
 <utube>UCos52azQNBgW63_9uDJoPDA</utube>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ahl_alquran_tv.png</thumbnail>
 </item>
- 
-
- 
+  
 <item>
 <title>IQra Tv</title>
 <link>$doregex[get-url]</link>

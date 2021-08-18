@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
 <item>
 <title>Islam Channel</title>
 <link>http://wowza05.sharp-stream.com:1935/islamtv/mp4:islamtv.stream/playlist.m3u8</link>
@@ -23,20 +26,15 @@
  
 <item>
 <title>Mecca Live</title>
-<link>plugin://plugin.video.youtube/play/?video_id=$doregex[id]</link>
-<regex>
-<name>id</name>
-<expres>data-context-item-id="([^"]+)<expres>
-<page>https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA</page>
-</regex>
+<utube>UCos52azQNBgW63_9uDJoPDA</utube>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ahl_alquran_tv.png</thumbnail>
 </item>
  
 
  
-<item>$doregex[get-url]
+<item>
 <title>IQra Tv</title>
-<link>https://dcunilive16-lh.akamaihd.net/i/dclive_1@347128/master.m3u8</link>
+<link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
 <expres>file:  '(.*m3u8)'</expres>
@@ -45,3 +43,4 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/iqra_tv_uk.png</thumbnail>
 </item>
+</items>

@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
 <item>
 <title>Dua For Protection</title> 
 <utube>zN5G0v6bVck</utube> 
 <thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
 </item>
  
- 
 <item>
 <title>Dua For Sucess</title> 
 <utube>zC-aHZINAlU</utube> 
 <thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
 </item>
- 
  
 <item>
 <title>Surah Yasin</title> 
@@ -125,7 +126,7 @@
 <page>http://www.quran411.com/surah-kahf?r=11</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
-</item>
+</tem>
 
 <tem>
 <title>SURAH AL-KAHF</title> 
@@ -181,10 +182,8 @@
 <thumbnail></thumbnail>
 </item>
 
-http://www.islamfactory.com/quran/mp3/mishary-bin-rashid-al-afasy/036-Mishary-QF
 
-
-<tem>http://www.archive.org/download/Machari_Rashed_AlAfassi/036.mp3
+<tem>
 <title>SURAH AD-YASEEN</title> 
 <link>$doregex[reg1]</link>
 <regex>
@@ -194,3 +193,5 @@ http://www.islamfactory.com/quran/mp3/mishary-bin-rashid-al-afasy/036-Mishary-QF
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+<items>

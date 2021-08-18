@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
-
-
-<channel>
-<name>Useful Duas Audio</name>
-<thumbnail>special://home/addons/plugin.video.Alquran/img/praying.png</thumbnail>
+<item>
+<title>Useful Duas Audio</title>
+<link>ignore</link>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/quran/quran_audios</externallink>
-<fanart></fanart>
-<info>Useful Duas Audio</info>
-</channel>
-  
-<channel>
-<name>Useful Duas Videos</name>
 <thumbnail>special://home/addons/plugin.video.Alquran/img/praying.png</thumbnail>
+<info>Useful Duas Audio</info>
+</item>
+  
+<item>
+<title>Useful Duas Videos</title>
+<link>ignore</link>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/quran/quran_videos</externallink>
-<fanart>Useful Duas Video</fanart>
-<info></info>
-</channel>
-
-
-  
-  
-
+<thumbnail>special://home/addons/plugin.video.Alquran/img/praying.png</thumbnail>
+<info>Useful Duas Video</info>
+</item>
 
 <items>

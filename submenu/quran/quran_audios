@@ -130,7 +130,7 @@
 
 <tem>
 <title>SURAH AL-KAHF</title> 
-<link>http://soundflux.islamicfinder.org/if-soundflux/api/v1/stream//quran/rahman-sudais/018.mp3</link>
+<link>http://www.quran411.com/$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>href="(h.*mp3)"</expres>

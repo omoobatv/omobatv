@@ -15,12 +15,7 @@
  
 <item>
 <title>Muslim TV Ahmadiyya</title>
-<link>$doregex[dummy]</link>
-<regex>
-<name>dummy</name>
-<expres>$pyFunction:str('http://ooyalahd2-f.akamaihd.net/z/mtaurdu_delivery@350117/manifest.f4m?g=YWDMKPHNRYHS&amp;hdcore=2.10.3')<expres>
-<page></page>
-</regex>
+<f4m>http://ooyalahd2-f.akamaihd.net/z/mtaurdu_delivery@350117/manifest.f4m?g=YWDMKPHNRYHS&amp;hdcore=2.10.3</f4m>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mta_tv_uk_international.png</thumbnail>
 </item>
   

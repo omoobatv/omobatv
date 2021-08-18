@@ -1,8 +1,7 @@
-
-<layouttype>thumbnail</layouttype>
-
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <channels>
+
+
 <channel>
 <name>Useful Duas Audio</name>
 <thumbnail>special://home/addons/plugin.video.Alquran/img/praying.png</thumbnail>

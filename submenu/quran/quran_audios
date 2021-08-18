@@ -183,8 +183,8 @@
 </item>
 
 
-<tem>
-<title>SURAH AD-YASEEN</title> 
+<item>
+<title>SURAH AD-YASEEN2</title> 
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
@@ -192,6 +192,5 @@
 <page>http://suratmp3.com/modules/mp3Quran/en/listen/25/36/</page>
 </regex>
 <thumbnail></thumbnail>
-</tem>
-
+</item>
 </items>

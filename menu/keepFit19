@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
+  
 <item>
 <title>All Workout</title>
-<thumbnail></thumbnail>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/keepFit/workout</externallink>
-<fanart></fanart>
-<info>Fitness Workout</info>
+<thumbnail></thumbnail>
 <item>
 </items>

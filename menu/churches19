@@ -2,7 +2,7 @@
 <items>
 
 <item>
-<title>TV Verat</title>
+<title>TV Verato</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
@@ -11,7 +11,7 @@
 </regex>
 <regex>
 <name>get-ifr</name>
-<expres>file: "(.*?)"</expres>
+<expres>file: "([^"]*)</expres>
 <page>https://www.dunamisgospel.org</page>
 <referer>https://www.dunamisgospel.org</referer>
 <cookieJar></cookieJar>

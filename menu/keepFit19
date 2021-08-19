@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
-  
+
 <item>
 <title>All Workout</title>
-<link>ignore</link>
+<link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/keepFit/workout</externallink>
-<thumbnail></thumbnail>
-<item>
-</items>
+<thumbnail>special://home/addons/plugin.video.keepFit/icon.png</thumbnail>
+<info></info>
+</item>

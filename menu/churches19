@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
-  
-
-<item>
-<title>call of double pages iframe src</title>
-<link>$doregex[getUrl]</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  url=re.findall('(?s)src="(.*?)"',requests.get('https://www.dunamisgospel.org/',headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0','Referer':'https://www.dunamisgospel.org/'}).text
-  source=requests.get(url,headers={'Referer':'https://www.dunamisgospel.org/','User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0','Referer':'https://www.dunamisgospel.org/'}).text
- return re.findall('(?s)file: "(h.*m3u8)"',source)[0]+'|User-Agent=iPad&Referer=https://www.dunamisgospel.org/'
-]]></expres>
-<page></page>
-</regex>
-</item>
-    
-    
+     
 <item>
 <title>TV Verato</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>(?s)file: "(h.*m3u8)"</expres>
+<expres><![CDATA[(?s)file: "(h.*m3u8)"]]></expres>
 <page>$doregex[get-ifr]</page>
 </regex>
 <regex>
 <name>get-ifr</name>
-<expres>(?s)src="(.*?)"</expres>
+<expres><![CDATA[(?s)src="(.*?)"]]></expres>
 <page>https://www.dunamisgospel.org</page>
 <referer>https://www.dunamisgospel.org</referer>
 <cookieJar></cookieJar>

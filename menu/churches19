@@ -2,11 +2,11 @@
 <items>
 
 <item>
-<title>TV Vera</title>
+<title>TV Verat</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>src="(.*?)"</expres>
+<expres>iframe.*?src="(.*?)"</expres>
 <page>$doregex[get-ifr]</page>
 </regex>
 <regex>

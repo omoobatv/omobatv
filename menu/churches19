@@ -264,7 +264,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>reg1</name>
 <expres>source:"(.*?)"</expres>
-<page>http://www.giniko.com/watch.php?id=1167</page>
+<page>http://www.giniko.com/watch.php?id=1008</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/the_word_network.png</thumbnail>
 </item>

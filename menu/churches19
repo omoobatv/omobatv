@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+<item>
+<title>winners Account</title>
+<utube>UCyUKtrMdDilf74SPkCCKKtw</utube>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Reaching Your Height Live</title>
+<utube>UCpdjAORjyPu4fCW7MSVobLA</utube>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>winners New new</title>
+<link>http://192077958.r.worldcdn.net/192077958/_definst_/domi_low/playlist.m3u8|Referer=http://faithtabernacle.org.ng/files/low.html&amp;User-Agent=iPhone</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>RCCG GapTV</title>
+<utube>UCJdR5HjXZ6IKrWuUC3JCOkQ</utube>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>RCCG Live</title>
+<utube>UCHp4qCAPmz7-5BJ601FDFnA</utube>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>RCCG Account</title>
+<utube>UCHp4qCAPmz7-5BJ601FDFnA</utube>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>Freedom Arena Live</title>
+<link>http://gghdlive-lh.akamaihd.net/i/freedomarena2_1@323145/master.m3u8|user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<thumbnail>http://i63.tinypic.com/34spksg.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>MFM LIVE</title>
+<link>http://264624-lh.akamaihd.net/i/mof_flash@171983/master.m3u8</link>
+<thumbnail>https://i.imgsafe.org/328e98bc75.png</thumbnail>
+</item>
+
+
+<item>
+<title>MFM LIVE 2</title>
+<link>http://264624-lh.akamaihd.net/i/mof_flash@171983/master.m3u8?bkup=on</link>
+<thumbnail>https://i.imgsafe.org/328f069d99.png</thumbnail>
+</item>
+
+<item>
+<title>Winners Chapel Uk</title>
+<link>plugin://plugin.video.youtube/play/?video_id=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>(?s)videoId":"(.*?)"<expres>
+<page>https://www.youtube.com/channel/UCTxHmIoEgr74I1pfa3vbNnA</page>
+</regex>
+<thumbnail>http://i61.tinypic.com/29cxgk4.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>Winners Chapel NG 2</title>
+<link>plugin://plugin.video.youtube/play/?video_id=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>(?s)videoId":"(.*?)"<expres>
+<page>https://www.youtube.com/channel/UCyUKtrMdDilf74SPkCCKKtw</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+<item>
+<title>Winners Chapel low</title
+<link>http://video.worldcdn.net/462686534/_definst_/domi_low.m3u8|User-Agent=ipad</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction:'$doregex[get_stream1]' if not '$doregex[get_stream1]'=='' else '$doregex[get_stream2]'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_stream1</name>
+<expres>href.*[",'](.*domihd/playlist.m3u8)[",']</expres>
+<page>ttp://faithtabernacle.org.ng/mediacenter</page>
+<referer>http://faithtabernacle.org.ng/</referer>
+<agent>iphone</agent>
+</regex>
+<regex>
+<name>get_stream2</name>
+<expres>href.*[",'](h.*medium/playlist.m3u8)[",']</expres>
+<page>http://faithtabernacle.org.ng/mediacenter</page>
+<referer>http://faithtabernacle.org.ng/</referer>
+<cookieJar></cookieJar>
+<agent>iphone</agent>
+</regex>
+<thumbnail>http://i59.tinypic.com/opa0cx.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>Winners NG HD</title>
+<link>$doregex[getUrl]|User-Agent=ipad</link>
+<regex>
+<name>getUrl</name>
+<expres>(?s).*[',"](http.*m3u8)[',"]</expres>
+<page>http://shoutcastmedia.com/domistreaming/domihd.html</page>
+<referer>http://faithtabernacle.org.ng/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<title> Winners NG</title>
+<link>$doregex[getUrl]|User-Agent=ipad</link>
+<regex>
+<name>getUrl</name>
+<expres>a href.*[",'](http.*domi_low/playlist.m3u8)[",']</expres>
+<page>http://faithtabernacle.org.ng/mediacenter</page>
+<referer>http://faithtabernacle.org.ng/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Winners NG 2</title
+<link>$doregex[select_Url]|User-Agent=iphone</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction:'$doregex[get_stream1]' if not '$doregex[get_stream1]'=='' else '$doregex[get_stream2]'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_stream1</name>
+<expres>hls.*[',"](.*m3u8)[',"]</expres>
+<page>http://shoutcastmedia.com/domistreaming/domihd.html</page>
+<agent>iphone</agent>
+</regex>
+<regex>
+<name>get_stream2</name>
+<expres>hls.*[',"](.*m3u8)[',"]</expres>
+<page>http://shoutcastmedia.com/domistreaming/high.html</page>
+<referer></referer>
+<cookieJar></cookieJar>
+<agent>iphone</agent>
+</regex>
+<thumbnail>http://i59.tinypic.com/opa0cx.jpg</thumbnail>
+</item>
+
+<item>
+<title>Dove TV</title>
+<link>https://streaming.viewsat.eu/viewsatstream03/viewsatstream03.smil/master.m3u8|User-Agent=iphone</link>
+<thumbnail>https://s19.postimg.org/vceaqkh7n/dove_tv_ng.png</thumbnail>
+</item>
+
+<item>
+<title>KICC TV</title>
+<link>https://streaming.viewsat.eu/viewsatstream20/viewsatstream20.smil/master.m3u8|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>get-link</name>
+<expres>&lt;url&gt;(.*?)&lt;</expres>
+<page>http://player.webvideocore.net/index.php?page%5Furl=http%3A%2F%2Fwww%2Ekicctv%2Etv%2Findex%2Ephp%2Four%2Drates%2F25%2Dwatch&amp;compiled=27%2E08%2E2016%20v2&amp;a=xmlClipPath&amp;version=4&amp;rid=&amp;preview=0&amp;clip%5Fid=$doregex[get-clipID]&amp;l=info</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get-clipID</name>
+<expres>clip_id:"(.*?)"</expres>
+<page>http://www.kicctv.tv/index.php/our-rates/25-watch</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s19.postimg.org/pcqjmwwf7/kicc_tv.png</thumbnail>
+</item>
+
+
+<item>
+<title>Salvation Tv</title>
+<link>$doregex[get-M3U8]</link>
+<regex>
+<name>get-M3U8</name>
+<expres>a href.*[",'](.*m3u8)[",']</expres>
+<page>https://smhos.org/live-streaming/</page>
+<agent></agent>
+</regex>
+<thumbnail>https://s19.postimg.org/obqaxsffn/salvation_tv_ng.png</thumbnail>
+</item>
+
+<item>
+<title>BelieVe TV</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src.*[",'](.*m3u8)[",']</expres>
+<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=344</page>
+<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/believe_tv.png</thumbnail>
+</item>
+
+<item>
+<title>ABN</title>
+<link>http://nimplus1.giniko.com/abntv/abntv.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=211</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/african_broadcasting_network.png</thumbnail>
+</item>
+
+
+<item>
+<title>GOD TV</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]&amp;name=GOD TV</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://ooyalahd2-f.akamaihd.net/z/godtv03_delivery@17352/manifest.f4m?g=TCHENBETIHDT&amp;hdcore=2.10.3')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item>
+
+
+<item>
+<title>Hope TV</title>
+<link>http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hope_channel_international.png</thumbnail>
+</item>
+
+<item>
+<title>Revelation TV</title>
+<link>https://live.on4cdn.net/live/27937601/rev/playlist.m3u8|Cookie=$get_cookies$&amp;User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</link>
+<thumbnail>http://i62.tinypic.com/1zmmdzm.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>Daystar TV</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>(http.*daystar.m3u8)</expres>
+<page>$doregex[page]</page>
+<referer>http://mynaijapack.com/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>page</name>
+<expres>(http.*daystar.plist)</expres>
+<page>http://mynaijapack.com/api/droid/service.php?ver=2.0&amp;operation=getSubscribedPlanChannels&amp;sid=1</page>
+<referer>http://mynaijapack.com</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/daystar_tv_network.png</thumbnail>
+</item>
+
+<item>
+<title>Freedom Arena (Bemiwo)</title>
+<utube>freedomarenaAwake</utube>
+<thumbnail>http://i57.tinypic.com/1ju90k.jpg</thumbnail>
+</item>
+
+<item>
+<title>Loveworld Tv</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  url=re.findall('(?s)src="(.*?)"',requests.get('http://www.loveworldplus.tv/',headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0','Referer':'https://secure.metacdn.com/r/j/bedkcjfty/lwplus/embed/'}).text
+  source=requests.get(url,headers={'Referer':'http://www.loveworldplus.tv/','User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0','Referer':'http://www.loveworldplus.tv/watch/'}).text
+ return re.findall('(?s)source src="(h.*m3u8)"',source)[0]+'|User-Agent=Mozilla/5.0&Referer=https://secure.metacdn.com/r/j/bedkcjfty/lwplus/embed'
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/love_world_plus.png</thumbnail>
+</item>
+
+<item>
+<title>Libration TV</title>
+<link>http://82.80.192.27/dimd_Live3Repeat/_definst_/smil:Live3.smil/playlist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/liberation_tv_ng.png</thumbnail>
+</item>
+
+<item>
+<title>Dunamis TV Live</title>
+<link>rtmp://169.54.220.180:1935/live/dunamis2471 playpath=dunamis2471 swfUrl=http://www.dunamisgospel.org/StrobeMediaPlayback.swf pageUrl=http://www.dunamisgospel.org/ live=true timeout=15</link>
+<thumbnail>http://i58.tinypic.com/2wrf8jt.png</thumbnail>
+</item>
+
+<item>
+<title>Emmanuel TV</title>
+<link>http://nimlive1.giniko.com/emmanuel/emmanuel.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=211</page>
+<agent>Mozilla/5.0</agent>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
+</item>
+
+<item>
+<title>The Word Network</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.giniko.com/watch.php?id=58</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/the_word_network.png</thumbnail>
+</item>
+
+<item>
+<title>TBN</title>
+<link>http://acaooyalahd2-lh.akamaihd.net/i/TBN01_delivery@186239/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tbn_tv_us.png</thumbnail>
+</item>
+
+
+<item>
+<title>RCCGNA</title>
+<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://shoutcastmedia.com/rccgna/high.html</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: "(.*?)"</expres>
+<page>http://162.244.81.165/mystream/player.php?custid=44&amp;id=72&amp;width=720&amp;height=406&amp;autostart=true</page>
+<referer></referer>
+</regex>
+<thumbnail>http://s19.postimg.org/4hybw9jvj/rccg.jpg</thumbnail>
+</item>
+
+<item>
+<title>Lumen Christi Tv</title>
+<link>$doregex[get-M3U8]</link>
+<regex>
+<name>get-M3U8</name>
+<expres>file: "(.*?)"</expres>
+<page>http://162.244.81.165/mystream/player.php?custid=61&amp;id=95</page>
+<agent></agent>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lumen_christi_tv_network_ng.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>David Oyedepo 22may</title>
+<link>http://vod-archive.domi.org.ng/Sunday/22.05.2016_First_Service.mp4</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>David Oyedepo 29may</title>
+<link>http://vod-archive.domi.org.ng/Sunday/29.05.2016_First_Service.mp4</link>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>MFM LIVE 2</title>
+<link>plugin://plugin.video.f4mTester/?url=http://264624-lh.akamaihd.net/i/mof_flash@171983/master.m3u8&amp;streamtype=HLS&amp;name=MFM LIVE 2|User-Agent=Mozilla/5.0<link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>MFM Tv</title>
+<link>$doregex[get-M3U8]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>get-M3U8</name>
+<expres>src.*[",'](.*m3u8)[",']</expres>
+<page>http://admin.ott.mx1.com/multibit/mfmtv/index.php</page>
+<agent>Mozilla/5.0</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+</items>

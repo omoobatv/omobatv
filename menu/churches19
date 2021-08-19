@@ -85,7 +85,7 @@
 
 <item>
 <title>Winners NG HD</title>
-<link>$doregex[getUrl]|User-Agent=ipad</link>
+<link>$doregex[getUrl]</link>
 <regex>
 <name>getUrl</name>
 <expres>(?s).*[',"](http.*m3u8)[',"]</expres>

@@ -247,7 +247,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>Dunamis TV Live</title>
-<link>rtmp://169.54.220.180:1935/live/dunamis2471 playpath=dunamis2471 swfUrl=http://www.dunamisgospel.org/StrobeMediaPlayback.swf pageUrl=http://www.dunamisgospel.org/ live=true timeout=15</link>
+<link>https://christianworld.ashttp9.visionip.tv/live/visiontvuk-religion-dunamistv-SD/chunklist.m3u8</link>
 <thumbnail>http://i58.tinypic.com/2wrf8jt.png</thumbnail>
 </item>
 

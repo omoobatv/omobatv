@@ -8,7 +8,6 @@
 <name>get-url</name>
 <expres>src="(.*?)"</expres>
 <page>$doregex[get-ifr]</page>
-<referer>https://www.dunamisgospel.org</referer>
 </regex>
 <regex>
 <name>get-ifr</name>

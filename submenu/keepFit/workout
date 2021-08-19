@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
 <item>
 <title>[COLOR white]Fitness Blender[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCiP6wD_tYlYLYh3agzbByWQ/?page=0</jsonrpc>
@@ -106,5 +109,4 @@
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
-
-
+</items>

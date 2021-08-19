@@ -65,7 +65,7 @@
 <link>plugin://plugin.video.youtube/play/?video_id=$doregex[id]</link>
 <regex>
 <name>id</name>
-<expres>(?s)videoId":"(.*?)"<expres>
+<expres>(?s)videoId":"(.*?)"</expres>
 <page>https://www.youtube.com/channel/UCTxHmIoEgr74I1pfa3vbNnA</page>
 </regex>
 <thumbnail>http://i61.tinypic.com/29cxgk4.jpg</thumbnail>
@@ -77,7 +77,7 @@
 <link>plugin://plugin.video.youtube/play/?video_id=$doregex[id]</link>
 <regex>
 <name>id</name>
-<expres>(?s)videoId":"(.*?)"<expres>
+<expres>(?s)videoId":"(.*?)"</expres>
 <page>https://www.youtube.com/channel/UCyUKtrMdDilf74SPkCCKKtw</page>
 </regex>
 <thumbnail></thumbnail>

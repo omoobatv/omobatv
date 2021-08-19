@@ -253,8 +253,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.giniko.com/watch.php?id=58</page>
+<expres>source:"(.*?)"</expres>
+<page>http://www.giniko.com/watch.php?id=1167</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/the_word_network.png</thumbnail>
 </item>

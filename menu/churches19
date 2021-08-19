@@ -3,21 +3,26 @@
 
      
 <item>
-<title>TV Verato</title>
-<link>$doregex[get-url]</link>
+<title>UK Skysport F1</title>
+<link>$doregex[getUrl]</link>
 <regex>
-<name>get-url</name>
-<expres><![CDATA[(?s)file: "(h.*m3u8)"]]></expres>
-<page>$doregex[get-ifr]</page>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,urllib.parse,time
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013,m5 modified
+  now=int((int(time.time()) + 86400) * 1000)
+  jurl='https://teleriumtv.com/streams/46569/%s.json'%now
+  r=requests.get(jurl,headers={'user-agent':'Mozilla/5.0','referer':'https://teleriumtv.com/embed/46569.html','accept':'*/*'},cookies={'volume':'0'}).json()
+  headers={'user-agent':'Mozilla/5.0','accept':'*/*','origin':'https://teleriumtv.com','referer':'https://teleriumtv.com/embed/46569.html'}
+  netloc=r.get('url')
+  if r.get('tokenurl'):
+    netloc +=requests.get('https://teleriumtv.com/'+r.get('tokenurl'),headers=headers).json()[10][::-1]
+  netloc=netloc if netloc.startswith('http') else 'https:'+netloc
+  return netloc+'|{0}'.format(urllib.parse.urlencode(headers))  # why add 46569 after netloc
+]]></expres>
+<page></page>
 </regex>
-<regex>
-<name>get-ifr</name>
-<expres><![CDATA[(?s)src="(.*?)"]]></expres>
-<page>https://www.dunamisgospel.org</page>
-<referer>https://www.dunamisgospel.org</referer>
-<cookieJar></cookieJar>
-</regex>
-</item>  
+</item>
   
 <item>
 <title>Winners Account</title>

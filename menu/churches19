@@ -11,7 +11,7 @@
 </regex>
 <regex>
 <name>get-ifr</name>
-<expres>file: "(.*?)"</expres>
+<expres>(?s)file: "(.*?)"</expres>
 <page>https://www.dunamisgospel.org</page>
 <referer>https://www.dunamisgospel.org</referer>
 <cookieJar></cookieJar>

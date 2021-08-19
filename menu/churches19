@@ -2,11 +2,28 @@
 <items>
 
 <item>
+<title>Dailymotion</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='https://www.dailymotion.com/video/x7n1fbz'):
+    import urlresolver
+    u = urlresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</item>  
+  
+  
+<item>
 <title>TV Verato</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>iframe.*?src="(.*?)"</expres>
+<expres>src="(.*?)"</expres>
 <page>$doregex[get-ifr]</page>
 </regex>
 <regex>

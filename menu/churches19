@@ -124,7 +124,7 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
 <title> Winners NG</title>
 <link>$doregex[getUrl]|User-Agent=ipad</link>
 <regex>
@@ -285,7 +285,7 @@ import re,requests
 def GetLSProData(page_data,Cookie_Jar,m):
   url=re.findall('(?s)src="(.*?)"',requests.get('http://www.loveworldplus.tv/',headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0','Referer':'https://secure.metacdn.com/r/j/bedkcjfty/lwplus/embed/'}).text
   source=requests.get(url,headers={'Referer':'http://www.loveworldplus.tv/','User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0','Referer':'http://www.loveworldplus.tv/watch/'}).text
- return re.findall('(?s)source src="(h.*m3u8)"',source)[0]+'|User-Agent=Mozilla/5.0&Referer=https://secure.metacdn.com/r/j/bedkcjfty/lwplus/embed'
+ return re.findall('(?s)source src="(h.*m3u8)"',source)[0]+'|User-Agent=Mozilla/5.0&amp;Referer=https://secure.metacdn.com/r/j/bedkcjfty/lwplus/embed'
 ]]></expres>
 <page></page>
 </regex>

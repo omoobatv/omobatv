@@ -87,7 +87,7 @@
 
 <item>
 <title>Winners Chapel low</title
-<link>$doregex[select_Url]|User-Agent=ipad</link>
+<link>$doregex[select_Url]</link>
 <regex>
 <name>select_Url</name>
 <expres>$pyFunction:'$doregex[get_stream1]' if not '$doregex[get_stream1]'=='' else '$doregex[get_stream2]'</expres>

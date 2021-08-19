@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
+
+<item>
+<title>TV Vera</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>src="(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>https://www.dunamisgospel.org</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>file: "(.*?)"</expres>
+<page>https://www.dunamisgospel.org</page>
+<referer>https://www.dunamisgospel.org</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>  
   
 <item>
 <title>Winners Account</title>

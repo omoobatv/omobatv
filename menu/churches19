@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
-<item>
-<title>Dailymotion</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='https://www.dailymotion.com/video/x7n1fbz'):
-    import urlresolver
-    u = urlresolver.resolve(url)
-    return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-</item>  
   
 
 <item>
@@ -40,12 +25,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>src="(.*?)"</expres>
+<expres>(?s)file: "(h.*m3u8)"</expres>
 <page>$doregex[get-ifr]</page>
 </regex>
 <regex>
 <name>get-ifr</name>
-<expres>file: "([^"]*)</expres>
+<expres>(?s)src="(.*?)"</expres>
 <page>https://www.dunamisgospel.org</page>
 <referer>https://www.dunamisgospel.org</referer>
 <cookieJar></cookieJar>

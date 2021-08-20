@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
-<item>
-<title>FRANCE 24 English</title>
-<link>plugin://plugin.video.youtube/play/?video_id=$doregex[youtube]</link>
-<regex>
-<name>youtube</name>
-<expres><![CDATA[href\=\"https\:\/\/www.youtube.com\/watch\?v\=(.*?)"]]></expres>
-<page>https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg</page>
-</regex>
-</item>
   
 <item>
 <title>Winners Account</title>

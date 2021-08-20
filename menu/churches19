@@ -6,7 +6,7 @@
 <link>plugin://plugin.video.youtube/play/?video_id=$doregex[youtube]</link>
 <regex>
 <name>youtube</name>
-<expres>href\=\"https\:\/\/www.youtube.com\/watch\?v\=(.*?)"</expres>
+<expres><![CDATA[href\=\"https\:\/\/www.youtube.com\/watch\?v\=(.*?)"]]></expres>
 <page>https://www.youtube.com/embed/live_stream?channel=UCQfwfsi5VrQ8yKZ-UWmAEFg</page>
 </regex>
 </item>

@@ -97,7 +97,7 @@
 <regex>
 <name>getUrl</name>
 <expres>(?s).*[',"](http.*m3u8)[',"]</expres>
-<page>https://faithtabernacle.org.ng/files/low</page>
+<page>https://faithtabernacle.org.ng/files/high</page>
 <referer>http://faithtabernacle.org.ng/</referer>
 </regex>
 <thumbnail></thumbnail>

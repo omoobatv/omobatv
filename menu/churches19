@@ -96,7 +96,7 @@
 <link>$doregex[getUrl]|User-Agent=ipad</link>
 <regex>
 <name>getUrl</name>
-<expres>source.*[",'](http.*domi_low/playlist.m3u8)[",']</expres>
+<expres>(?s).*[",'](http.*domi_low/playlist.m3u8)[",']</expres>
 <page>https://faithtabernacle.org.ng/files/high</page>
 <referer>http://faithtabernacle.org.ng/</referer>
 </regex>

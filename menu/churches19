@@ -96,11 +96,11 @@
 <link>$doregex[getUrl]</link>
 <regex>
 <name>getUrl</name>
-<expres>(?s).*[',"](http.*m3u8)[',"]</expres>
+<expres>source: "(https.*30443.*m3u8)"</expres>
 <page>https://faithtabernacle.org.ng/files/high</page>
 <referer>http://faithtabernacle.org.ng/</referer>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>https://yt3.ggpht.com/ytc/AKedOLRwO4XRStyNN07WWHmTvrwHbCphTQ25-xiRR8qO=s400-c-k-c0x00ffffff-no-rj</thumbnail>
 </item>
 
 <item>

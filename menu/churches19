@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
+<item>
+<title>Winners Live</title>
+<link>plugin://plugin.video.youtube/play/?channel_id=UCyUKtrMdDilf74SPkCCKKtw&amp;live=1</link>
+</item>
   
 <item>
 <title>Winners Account</title>

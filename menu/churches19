@@ -18,9 +18,9 @@
 
 
 <item>
-<title>Winners New new</title>
-<link>http://192077958.r.worldcdn.net/192077958/_definst_/domi_low/playlist.m3u8|Referer=http://faithtabernacle.org.ng/files/low.html&amp;User-Agent=iPhone</link>
-<thumbnail></thumbnail>
+<title>Winners New</title>
+<link>plugin://plugin.video.youtube/play/?channel_id=UCyUKtrMdDilf74SPkCCKKtw&amp;live=1</link>
+<thumbnail>https://yt3.ggpht.com/ytc/AKedOLRwO4XRStyNN07WWHmTvrwHbCphTQ25-xiRR8qO=s400-c-k-c0x00ffffff-no-rj</thumbnail>
 </item>
 
 <item>
@@ -90,9 +90,21 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+  
+<item>
+<title>Winners NG HD 2</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres>(?s).*[',"](http.*m3u8)[',"]</expres>
+<page>https://faithtabernacle.org.ng/files/low</page>
+<referer>http://faithtabernacle.org.ng/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <item>
-<title> Winners NG Lo</title>
+<title> Winners NG Low</title>
 <link>$doregex[getUrl]|User-Agent=ipad</link>
 <regex>
 <name>getUrl</name>

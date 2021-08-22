@@ -92,11 +92,11 @@
 </item>
 
 <item>
-<title> Winners NG Low</title>
+<title> Winners NG Lo</title>
 <link>$doregex[getUrl]|User-Agent=ipad</link>
 <regex>
 <name>getUrl</name>
-<expres>(?s).*[",'](http.*domi_low/playlist.m3u8)[",']</expres>
+<expres>(?s).*[",'](http.*livestream.m3u8)[",']</expres>
 <page>https://faithtabernacle.org.ng/files/low</page>
 <referer>http://faithtabernacle.org.ng/</referer>
 </regex>

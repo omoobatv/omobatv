@@ -2,7 +2,7 @@
 <items>
 
 <item>
-<title>Salva</title>
+<title>Salvali</title>
 <link>$doregex[get-M3U8]</link>
 <regex>
 <name>get-M3U8</name>

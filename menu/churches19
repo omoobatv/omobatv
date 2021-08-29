@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
-<item>
-<title>Salvali</title>
-<link>$doregex[get-M3U8]</link>
-<regex>
-<name>get-M3U8</name>
-<expres><![CDATA[a href.*?"(.*S01E01.*mkv)"]]></expres>
-<page>https://nkiri.com/king-of-boys-return-of-the-king-s01-complete-tv-series/</page>
-<agent></agent>
-</regex>
-<thumbnail>https://s19.postimg.org/obqaxsffn/salvation_tv_ng.png</thumbnail>
-</item>
+
   
 <item>
 <title>Winners Account</title>

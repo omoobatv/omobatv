@@ -6,7 +6,7 @@
 <link>$doregex[get-M3U8]</link>
 <regex>
 <name>get-M3U8</name>
-<expres>a href.*[",'](.*S01E01.*mkv)[",']</expres>
+<expres><![CDATA[a href.*[",'](.*S01E01.*mkv)[",']]]></expres>
 <page>https://nkiri.com/king-of-boys-return-of-the-king-s01-complete-tv-series/</page>
 <agent></agent>
 </regex>

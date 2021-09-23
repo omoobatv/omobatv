@@ -166,4 +166,17 @@
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>
+ 
+<item>
+<title>Mishary AL-Kahf</title> 
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>controls src="(.*?)"</expres>
+<page>https://qurancentral.com/mishary-rashid-alafasy-018-al-kahf</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
+ 
+ 
 </items>

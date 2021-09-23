@@ -155,4 +155,15 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+ 
+<item>
+<title>SURAH AL-Kahf</title> 
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>https://www.dawateislami.net/quran/surah-al-kahf</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
 </items>

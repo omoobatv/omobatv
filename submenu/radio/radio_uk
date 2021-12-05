@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
 <item>
 <title>Absolute Radio</title>
 <link>http://ais.absoluteradio.co.uk/absoluteradio.mp3</link>
@@ -74,3 +77,5 @@
 <link>http://media-the.musicradio.com/SmoothLondon</link>
 <thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/406_288x162_2014-03-19-15-30-45-953.png</thumbnail>
 </item>
+
+</items>

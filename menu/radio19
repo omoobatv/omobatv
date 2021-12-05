@@ -1,1 +1,25 @@
-the
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+<item>
+<title>UK Live Radio Stations</title>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/radio/radio_uk</externallink>
+<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/images/uk_radio_station.png</thumbnail>
+</item>
+
+<item>
+<title>BBC Live Radio Stations</title>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/radio/radio_bbc</externallink>
+<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/images/bbc_radio_icon.jpg</thumbnail>
+</item>
+
+<item>
+<title>Naija Live Radio Stations</title>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/omoobatv/omobatv/master/submenu/radio/radio_naija</externallink>
+<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/images/naija_rad_icon.jpg</thumbnail>
+</item>
+
+</items>

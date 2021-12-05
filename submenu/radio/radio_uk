@@ -38,7 +38,7 @@
 <thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/1155_288x162_2013-01-25-09-30-55-595.png</thumbnail>
 </item>
 
-<item>http://streams.shoutcastsolutions.com:8161
+<item>
 <title>Choice FM</title>
 <link>http://178.32.62.163:8161/stream</link>
 <thumbnail>https://cdn-radiotime-logos.tunein.com/s275103q.png</thumbnail>
@@ -50,7 +50,7 @@
 <thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/232_288x162_2017-02-12-21-15-35-276.png</thumbnail>
 </item>
     
- <item>
+<item>
 <title>kiss FM</title>
 <link>https://stream-al.planetradio.co.uk/kisstory.mp3</link>
 <thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/550_288x162_2015-04-30-13-15-55-550.png</thumbnail>

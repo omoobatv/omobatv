@@ -70,7 +70,7 @@
 <thumbnail>https://mytuner.global.ssl.fastly.net/media/tvos_radios/6gu8cqqsnubq.jpeg</thumbnail>
 </item>
 
-<item>mytuner-radio.com/radio
+<item>
 <title>Fresh FM Ibadan</title>
 <link>http://node-11.zeno.fm/u5enyd4c28quv?bmi_MfsTid=6371875174700387941&amp;rj-ttl=5&amp;rj-tok=AAABb4s5WssAi4iHxYm1IbcPuQ</link>
 <thumbnail>http://cdn.onlineradiobox.com/img/logo/9/6819.v1.png</thumbnail>
@@ -274,39 +274,3 @@
 </item>
 
 </items>
-
-
-<tem>
-<title>Sky00</title> 
-<link>$doregex[reg1]|User-Agent=iphone</link>
-<regex>
-<name>reg1</name>
-<expres>href.*[",'](.*key.*?)[",']</expres>
-<page>http://www.naijapals.com/music/FIA__Fuji_Version__Destiny_Boy_X_Davido-69493</page>
-<referer>http://m.naijapals.com/song.php?id=69493</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<tem>
-<title>Asa</title> 
-<link>https://m.naijapals.com/$doregex[reg1]|User-Agent=iphone</link>
-<regex>
-<name>reg1</name>
-<expres>href.*[",'](.*key.*?)[",']</expres>
-<page>https://m.naijapals.com/music.php?id=95988</page>
-<referer>https://m.naijapals.com/music.php?id=95988</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-
-<title>[COLOR white]Sourced From You Tube So May Contain Clips[/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/playlist/PL-sIpqBXHUeW2SZXro5grac2RRzDZbTdy/?page=0</jsonrpc>
-<thumbnail>ignoreme</thumbnail>
-<fanart>ignoreme</fanart>
-<link>ignorme</link>
-</item>
-
-https://onlineradiobox.com/ng/

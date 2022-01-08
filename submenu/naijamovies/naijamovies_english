@@ -16,6 +16,15 @@
 </item>
 
 <item>
+<title>[COLOR white]Oriyomi Hamsat[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCXr4pVSbbRcxnxyOeDWjEMA/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/ytc/AKedOLTgpGrzAclWEL_TT4Q-ZX3mXXasR-CDexLvmDYTAA=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+<link>ignoreme</link>
+</item>
+  
+
+
+<item>
 <title>[COLOR white]Welcome to the Woods[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCDJX_FJB3bGF8Dq1gxQnv9g/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AAUvwniTuEchvfuSRjl2LfPlXKn5p-sQMIN8I7pp58k7=s900-c-k-c0x00ffffff-no-rj</thumbnail>

@@ -130,11 +130,11 @@
 
 <item>
 <title>SURAH AD-DUHA</title> 
-<link>http://www.quran411.com/$doregex[reg1]</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/surah-duha?r=11</page>
+<expres>controls src="(.*?)"</expres>
+<page>https://qurancentral.com/mishary-rashid-alafasy-093-ad-dhuha/</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>

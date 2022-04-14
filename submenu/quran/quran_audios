@@ -62,11 +62,11 @@
  
 <item>
 <title>SURAH AL-FALAQ</title> 
-<link>http://www.quran411.com/$doregex[reg1]</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>https://www.quran411.com/surah-falaq?r=11</page>
+<expres>controls src="(.*?)"</expres>
+<page>https://qurancentral.com/mishary-rashid-alafasy-113-al-falaq/</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>

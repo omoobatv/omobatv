@@ -51,7 +51,7 @@
  
 <item>
 <title>40 Rabbanas</title> 
-<link>http://www.quran411.com/$doregex[reg1]</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>

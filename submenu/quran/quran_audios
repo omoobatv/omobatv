@@ -40,7 +40,7 @@
  
 <item>
 <title>99 Names of Allah</title> 
-<link>http://www.quran411.com/$doregex[reg1]</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
@@ -96,7 +96,7 @@
  
 <item>
 <title>SURAH AL-IKHLAS</title> 
-<link>http://www.quran411.com/$doregex[reg1]</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
@@ -107,7 +107,7 @@
  
 <item>
 <title>SURAH AL-BAQARAH</title> 
-<link>http://www.quran411.com/$doregex[reg1]</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>

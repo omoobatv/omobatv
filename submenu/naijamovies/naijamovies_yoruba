@@ -30,6 +30,13 @@
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCK2-495cMvdhaMqXcLlgmcg/?page=0</jsonrpc>
 <thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubaplay.jpg</thumbnail>
 </item>
+  
+<item>
+<title>[COLOR white] YorubaWood[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCaB8Osun2dt9owmJrOAQMJw/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/v8dZC96KIbuYG3Lm3oOjNXyywk-7JXTew1F4VLBOWD7YBP0yYH99rFVHbyRDoFKNXIk87_jfSu4=s176-c-k-c0x00ffffff-no-rj</thumbnail>
+</item> 
 
 <item>
 <title>[COLOR white] Yoruba TV+[/COLOR]</title>
@@ -120,5 +127,8 @@
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCDF1tRy_Y0j0vLHOoL9dndw/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/a/AGF-l78zLGFFV5F_fvcPhm34UIELiUq2yC2E34UXgQ=s176-c-k-c0x00ffffff-no-rj-mo</thumbnail>
 </item>
+  
+
+  
   
 </items>

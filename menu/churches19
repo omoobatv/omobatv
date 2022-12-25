@@ -52,14 +52,14 @@
 
 <item>
 <title>MFM LIVE</title>
-<link>http://264624-lh.akamaihd.net/i/mof_flash@171983/master.m3u8</link>
+<link>https://mountainoffire.piksel.tech/hls/live/2041538/MOFStream1/MOF_Stream1/chunklist.m3u8</link>
 <thumbnail>https://i.imgsafe.org/328e98bc75.png</thumbnail>
 </item>
 
 
 <item>
 <title>MFM LIVE 2</title>
-<link>http://264624-lh.akamaihd.net/i/mof_flash@171983/master.m3u8?bkup=on</link>
+<link>http://mfmcdn.purpleturtle.tv/mfmlive/mfmabr/mfmlive/mfm500/chunks.m3u8</link>
 <thumbnail>https://i.imgsafe.org/328f069d99.png</thumbnail>
 </item>
 

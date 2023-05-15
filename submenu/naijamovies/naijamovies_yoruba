@@ -31,6 +31,13 @@
 <thumbnail>special://home/addons/plugin.video.naijaMovies/img/yorubaplay.jpg</thumbnail>
 </item>
   
+ <item>
+<title>[COLOR white]YET TV PLUS[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC1X2tszRzaa9tz9EWJaqDPg/?page=0</jsonrpc>
+<thumbnail>https://yt3.googleusercontent.com/ytc/AGIKgqNqkWPREzoYSz1B5_k1YnZ-HYGmHi-YPt-F70bU64EAaxV_MnljDYHvCGdQLR4Y=s176-c-k-c0x00ffffff-no-rj</thumbnail>
+</item> 
+
 <item>
 <title>[COLOR white] YorubaWood[/COLOR]</title>
 <link>ignoreme</link>

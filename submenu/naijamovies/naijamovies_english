@@ -16,6 +16,13 @@
 </item>
 
 <item>
+<title>[COLOR white]Oluchi TV[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCg_y41ulw0L-YmPtDV7zkgw/?page=0</jsonrpc>
+<thumbnail>https://yt3.googleusercontent.com/SzN_MTCB5Ulrs0-5KkFJOGSxaESSqz99Q3zrsdZjj_eJlg_mvN2u5AjZKAuLqSoIG7PS5gFUSw=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]Oriyomi Hamsat[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC9arc1ea1Em1PxF41EpPdtA/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AKedOLTgpGrzAclWEL_TT4Q-ZX3mXXasR-CDexLvmDYTAA=s500-c-k-c0x00ffffff-no-rj</thumbnail>
@@ -187,6 +194,8 @@
 <utube>zDt61Uc98Ks</utube> 
 <thumbnail>https://i.ytimg.com/vi/_zv2xTqA1cg/hqdefault.jpg</thumbnail>
 </item> 
+
+
   
   
 </items>

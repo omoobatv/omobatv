@@ -195,7 +195,16 @@
 <thumbnail>https://i.ytimg.com/vi/_zv2xTqA1cg/hqdefault.jpg</thumbnail>
 </item> 
 
-
+<item>
+<title>Wura 2 9-12</title>
+<link>$doregex[m5]|User-Agent=VLC/2.2.2 LibVLC/2.2.17</link>
+<regex>
+<name>m5</name>
+<expres>btn--primary'\s*href='(h[^']+)</expres>
+<page>https://loadedfiles.org/3d9a11eb5af44128</page>
+<referer>https://loadedfiles.com</referer>
+</regex>
+</item>
   
   
 </items>

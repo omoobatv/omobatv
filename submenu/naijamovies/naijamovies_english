@@ -16,6 +16,13 @@
 </item>
 
 <item>
+<title>[COLOR white]Aunty Adunni [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/channel/UChJzC5GPv2sk9F2gSvqxTHw/?page=0</jsonrpc>
+<thumbnail>https://yt3.googleusercontent.com/L9fo-423uvS2zbT_P3VtOisCcb70gcJiohOty3VZjLLUJ9romQfPsXRfvZWFKkLKCNi0_r7EOwA=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+<link>ignoreme</link>
+</item>
+
+<item>
 <title>[COLOR white]Oluchi TV[/COLOR]</title>
 <link>ignoreme</link>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCg_y41ulw0L-YmPtDV7zkgw/?page=0</jsonrpc>
@@ -44,6 +51,8 @@
 <thumbnail>https://yt3.ggpht.com/ytc/AAUvwnjht_VPMYAU1DnGxyxp7opKJc6-wrlb-AWiWYkI=s500-c-k-c0x00ffffff-no-rj</thumbnail>
 <link>ignoreme</link>
 </item>
+
+
 
 <item>
 <title>[COLOR white]Home RenoVision DIY[/COLOR]</title>

@@ -42,10 +42,10 @@
  
 <item>
 <title>99 Names of Allah</title> 
-<link>$doregex[reg1]|Referer=https://quran411.com/&amp;User-Agent=Mozilla/5.0v</link>
+<link>$doregex[reg1]|Referer=https://quran411.com/&amp;User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome</link>
 <regex>
 <name>reg1</name>
-<expres>source src="([^"]+)"</expres>
+<expres>source src="(.*?)"</expres>
 <page>https://quran411.com/99-names-of-allah</page>
 </regex>
 <thumbnail>http://s19.postimg.org/ykxllsf6n/99_Names_of_Allah.jpg</thumbnail>
@@ -53,7 +53,7 @@
  
 <item>
 <title>40 Rabbanas</title> 
-<link>$doregex[reg1]</link>
+<link>$doregex[reg1]|Referer=https://quran411.com/&amp;User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>

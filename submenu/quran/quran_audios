@@ -53,7 +53,7 @@
  
 <item>
 <title>40 Rabbanas</title> 
-<link>$doregex[reg1]|Referer=https://quran411.com/&amp;User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome</link>
+<link>https://od.lk/s/MTBfMTc3NDk3Mzk2Xw/40-Rabbana-Dua-Mishary-al-Afasy.mp3</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>

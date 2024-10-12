@@ -30,6 +30,15 @@
 </item>
 
 <item>
+<title>[COLOR white]Martha Ehinome[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCiZoaJo2nM2D-gEUHpkJfhw/?page=0</jsonrpc>
+<thumbnail>https://yt3.googleusercontent.com/7uy1EkpR4xmlqCjWpelFKhpjBr9E2LLdytQdMDB_BUHnCPhLXZkzvvNv2XmMGMBVj6-jZkA_Ng=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+
+
+<item>
 <title>[COLOR white]Yoruba Gidi TV[/COLOR]</title>
 <link>ignoreme</link>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCyNruPDlD44n9wZ9ITIJJzw/?page=0</jsonrpc>

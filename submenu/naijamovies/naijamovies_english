@@ -24,7 +24,7 @@
 
 <item>
 <title>[COLOR white]Bukky Jesse [/COLOR]</title>
-<jsonrpc>Plugin://plugin.video.youtube/channel/UC8SejBsS5PsrXPwz-rFrf4Q/?page=0</jsonrpc>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC8SejBsS5PsrXPwz-rFrf4Q/</jsonrpc>
 <thumbnail>https://yt3.googleusercontent.com/ytc/AIdro_lqLTkegxIoF2d-B1OYLhq3zox-XDdkkgTtxJdoeecRUio=s500-c-k-c0x00ffffff-no-rj</thumbnail>
 <link>ignoreme</link>
 </item>

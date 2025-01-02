@@ -37,6 +37,13 @@
 </item>
 
 <item>
+<title>[COLOR white]Frederick Leonard TV[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCzeFm4h5hkGm4y6SV9zvGjA/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/Fev16thwoL9NzuuIKog0Ab1w1cS24ELwF6se5X-IHP6JlgkZH-7O4aoL_jDDE0iq0QxsdY7NRQ=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]Agidigbo FM[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCSSeT_GrSDvDRh7KdFWhlxw/</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AKedOLTgpGrzAclWEL_TT4Q-ZX3mXXasR-CDexLvmDYTAA=s500-c-k-c0x00ffffff-no-rj</thumbnail>

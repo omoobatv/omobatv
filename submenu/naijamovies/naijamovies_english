@@ -44,6 +44,13 @@
 </item>
 
 <item>
+<title>[COLOR white]The Chioma Chukwuka TV[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCiZWyHYEvZO-1MFIxy1ojQg/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/JFaYh9fSwN8DNL_1ac4MYeQv4Shu-hDYd6wrOf_alW6RKMCeDcxgS09ayRkHHmLhqVy5uwc4-Q=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]Agidigbo FM[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCSSeT_GrSDvDRh7KdFWhlxw/</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AKedOLTgpGrzAclWEL_TT4Q-ZX3mXXasR-CDexLvmDYTAA=s500-c-k-c0x00ffffff-no-rj</thumbnail>

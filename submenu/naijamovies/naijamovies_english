@@ -30,6 +30,13 @@
 </item>
 
 <item>
+<title>[COLOR white]Bimbo Ademoye TV[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCneM4DHHUWMVwmYktz8X46g/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/nyzBW0NVLtJnwLQlL6-aSLxAM07ijr9Pdo5tJphva8BVXc3tauEWQdgCFRep4Cw9ljK3xzsJPw=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]Uche Montana TV[/COLOR]</title>
 <link>ignoreme</link>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCGRC6hm8mD8WqeY0auwrCrQ/?page=0</jsonrpc>

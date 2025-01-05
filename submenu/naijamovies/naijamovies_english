@@ -58,6 +58,13 @@
 </item>
 
 <item>
+<title>[COLOR white]Nolly HD[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCIwhAgHKLWVBdZwpcSbi83g/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/6w0BUYWDsEj1NA-P8Kel__HTsKtFTeybqXSlxS6agg09RBYOn3pjstCPxL5azqnoQZpSSztC=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]Agidigbo FM[/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCSSeT_GrSDvDRh7KdFWhlxw/</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/ytc/AKedOLTgpGrzAclWEL_TT4Q-ZX3mXXasR-CDexLvmDYTAA=s500-c-k-c0x00ffffff-no-rj</thumbnail>

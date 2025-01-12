@@ -46,6 +46,13 @@
 </item>
 
 <item>
+<title>[COLOR white]ODE ILU IBADAN TV[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCceA00b15ROY9IwfiNAAPxg/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/tvU6-B1YnvLfIEGZAZYWvEohPifTs2d9R95zrpquORJQb4MHEoRdCk-xzOAgmP9Tv9tdvMx17w=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]Adventures of Jazzy[/COLOR]</title>
 <link>ignoreme</link>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UC4kNA4w77iaGhOTTwk5mdfA/?page=0</jsonrpc>

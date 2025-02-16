@@ -67,6 +67,13 @@
 </item>
 
 <item>
+<title>[COLOR white]Yoruba Dun Online TV[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC2PsSxubsKl4H_DaBbxjRow/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/2I8eaX2zQKeG_MhNInINP2N_diQH7sWYRX3L4pfDVWqT6Vebq9jzSHU_AiIlAnZIuNL3YNVbEw=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]Mouse Farm and Agriculture[/COLOR]</title>
 <link>ignoreme</link>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCcguEALpeQIu6PKQBumtNcQ/?page=0</jsonrpc>

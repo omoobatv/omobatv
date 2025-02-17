@@ -81,6 +81,14 @@
 </item>
 
 <item>
+<title>[COLOR white]Get a Better Life TV[/COLOR]</title>
+<link>ignoreme</link>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCsBA7jMzTXHWaSg5kzyKKLg/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/ytc/AIdro_nr-dkISuNl7LqtRRi2bQto_q7XbbqF380XFbNzUn1Wag=s500-c-k-c0x00ffffff-no-rj</thumbnail>
+</item>
+
+
+<item>
 <title>[COLOR white]zicsaloma[/COLOR]</title>
 <link>ignoreme</link>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCH5rb07x3BuHkugiavuDX_A/?page=0</jsonrpc>
